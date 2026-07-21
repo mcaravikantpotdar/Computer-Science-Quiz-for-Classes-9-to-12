@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "chapter_title": "1 Digital Literacy (Fundamental) Basics of Computer",
+    "class": "9",
+    "subject": "IT"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "How many keys does a standard keyboard have?",
+        "hi": "एक मानक कीबोर्ड (standard keyboard) में कितनी कुंजियाँ (keys) होती हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "101",
+          "hi": "101"
+        },
+        "b": {
+          "en": "104",
+          "hi": "104"
+        },
+        "c": {
+          "en": "108",
+          "hi": "108"
+        },
+        "d": {
+          "en": "112",
+          "hi": "112"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is a three-digit number ending with 4.",
+        "hi": "यह 4 पर समाप्त होने वाली तीन अंकों की संख्या है।"
+      },
+      "explanation": {
+        "en": "According to the chapter text, a standard keyboard has 104 keys. When you press a key, an electrical signal is produced as input for the computer.",
+        "hi": "अध्याय के पाठ के अनुसार, एक मानक कीबोर्ड में 104 कुंजियाँ होती हैं। जब आप कोई कुंजी दबाते हैं, तो कंप्यूटर के लिए इनपुट के रूप में एक विद्युत संकेत उत्पन्न होता है।"
+      },
+      "key_takeaway": {
+        "en": "A standard QWERTY keyboard used with personal computers typically consists of 104 keys.",
+        "hi": "व्यक्तिगत कंप्यूटरों के साथ उपयोग किए जाने वाले मानक QWERTY कीबोर्ड में आमतौर पर 104 कुंजियाँ होती हैं।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "What is the smallest unit of computer memory represented as either 1 or 0?",
+        "hi": "कंप्यूटर मेमोरी की सबसे छोटी इकाई कौन सी है जिसे 1 या 0 के रूप में दर्शाया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Byte",
+          "hi": "बाइट"
+        },
+        "b": {
+          "en": "Nibble",
+          "hi": "निबल"
+        },
+        "c": {
+          "en": "Bit",
+          "hi": "बिट"
+        },
+        "d": {
+          "en": "Kilobyte",
+          "hi": "किलोबाइट"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is short for 'Binary Digit'.",
+        "hi": "यह 'बाइनरी डिजिट' (Binary Digit) का संक्षिप्त रूप है।"
+      },
+      "explanation": {
+        "en": "The smallest unit of memory is a 'Bit', which stands for binary digit. It can take only two values: either 0 (false) or 1 (true).",
+        "hi": "मेमोरी की सबसे छोटी इकाई 'बिट' (Bit) है, जिसका अर्थ बाइनरी डिजिट है। यह केवल दो मान ले सकती है: या तो 0 (गलत) या 1 (सही)।"
+      },
+      "key_takeaway": {
+        "en": "Bit is the fundamental unit of information storage in computer systems.",
+        "hi": "बिट कंप्यूटर सिस्टम में सूचना भंडारण की मूलभूत इकाई है।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Which of the following input devices is used in the banking industry to read cheque numbers and bank codes printed with special magnetic ink?",
+        "hi": "निम्नलिखित में से किस इनपुट डिवाइस का उपयोग बैंकिंग उद्योग में विशेष चुंबकीय स्याही से मुद्रित चेक नंबर और बैंक कोड को पढ़ने के लिए किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "OCR",
+          "hi": "ओसीआर (OCR)"
+        },
+        "b": {
+          "en": "MICR",
+          "hi": "एमआईसीआर (MICR)"
+        },
+        "c": {
+          "en": "Barcode Reader",
+          "hi": "बारकोड रीडर"
+        },
+        "d": {
+          "en": "Magnetic Stripe Reader",
+          "hi": "मैग्नेटिक स्ट्राइप रीडर"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Its full name contains 'Magnetic Ink'.",
+        "hi": "इसके पूर्ण नाम में 'मैग्नेटिक इंक' (Magnetic Ink) शब्द शामिल है।"
+      },
+      "explanation": {
+        "en": "MICR (Magnetic Ink Character Reader) is a character-recognition input device used mainly by banks to ease the processing and clearance of cheques.",
+        "hi": "MICR (मैग्नेटिक इंक कैरेक्टर रीडर) एक कैरेक्टर-रिकग्निशन इनपुट डिवाइस है जिसका उपयोग मुख्य रूप से बैंकों द्वारा चेक के प्रसंस्करण और निकासी को आसान बनाने के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "MICR technology reads bank-specific code and cheque numbers printed with magnetic ink particles.",
+        "hi": "MICR तकनीक चुंबकीय स्याही कणों के साथ मुद्रित बैंक-विशिष्ट कोड और चेक नंबरों को पढ़ती है।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "How is the resolution of a printer measured?",
+        "hi": "प्रिंटर का रेजोल्यूशन (resolution) किसमें मापा जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Characters per second (cps)",
+          "hi": "कैरेक्टर प्रति सेकंड (cps)"
+        },
+        "b": {
+          "en": "Lines per minute (lpm)",
+          "hi": "लाइन प्रति मिनट (lpm)"
+        },
+        "c": {
+          "en": "Dots per inch (dpi)",
+          "hi": "डॉट्स प्रति इंच (dpi)"
+        },
+        "d": {
+          "en": "Pages per minute (ppm)",
+          "hi": "पेज प्रति मिनट (ppm)"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It counts the individual tiny ink dots printed across a linear span of one inch.",
+        "hi": "यह एक इंच की रैखिक अवधि में मुद्रित व्यक्तिगत स्याही के छोटे डॉट्स को गिनता है।"
+      },
+      "explanation": {
+        "en": "The quality of printed output is defined by resolution, which is measured in terms of the number of dots per inch (dpi).",
+        "hi": "मुद्रित आउटपुट की गुणवत्ता रेजोल्यूशन द्वारा परिभाषित होती है, जिसे डॉट्स प्रति इंच (dpi) के रूप में मापा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Printer resolution is measured in dpi (dots per inch), whereas printing speed is measured in cps, lpm, or ppm.",
+        "hi": "प्रिंटर रेजोल्यूशन को dpi (डॉट्स प्रति इंच) में मापा जाता है, जबकि प्रिंटिंग गति को cps, lpm, या ppm में मापा जाता है।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "The word 'Computer' is derived from which English/Latin word?",
+        "hi": "'कंप्यूटर' (Computer) शब्द की उत्पत्ति किस शब्द से हुई है?"
+      },
+      "options": {
+        "a": {
+          "en": "Computor",
+          "hi": "कंप्यूटर"
+        },
+        "b": {
+          "en": "Compute",
+          "hi": "कंप्यूट (Compute)"
+        },
+        "c": {
+          "en": "Calculation",
+          "hi": "कैलकुलेशन"
+        },
+        "d": {
+          "en": "Compete",
+          "hi": "कंपीट"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The source word means 'to calculate'.",
+        "hi": "स्रोत शब्द का अर्थ 'गणना करना' है।"
+      },
+      "explanation": {
+        "en": "The word 'Computer' is derived from the word 'compute' which means to calculate. Historically, it was considered a calculating device for arithmetic operations.",
+        "hi": "'कंप्यूटर' शब्द 'कंप्यूट' (compute) शब्द से बना है जिसका अर्थ है गणना करना। ऐतिहासिक रूप से, इसे अंकगणितीय संचालन के लिए एक गणना करने वाला उपकरण माना जाता था।"
+      },
+      "key_takeaway": {
+        "en": "Computers were originally designed as high-speed calculative tools, though they do far more today.",
+        "hi": "कंप्यूटरों को मूल रूप से उच्च गति वाले गणना उपकरणों के रूप में डिज़ाइन किया गया था, हालांकि वे आज इससे कहीं अधिक कार्य करते हैं।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "What is the typical storage capacity of a standard CD-ROM?",
+        "hi": "एक मानक सीडी-रोम (CD-ROM) की सामान्य भंडारण क्षमता (storage capacity) कितनी होती है?"
+      },
+      "options": {
+        "a": {
+          "en": "500 MB",
+          "hi": "500 MB"
+        },
+        "b": {
+          "en": "700 MB",
+          "hi": "700 MB"
+        },
+        "c": {
+          "en": "1.44 MB",
+          "hi": "1.44 MB"
+        },
+        "d": {
+          "en": "4.7 GB",
+          "hi": "4.7 GB"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It can hold about 3,00,000 text pages.",
+        "hi": "यह लगभग 3,00,000 टेक्स्ट पेज रख सकता है।"
+      },
+      "explanation": {
+        "en": "As stated in the text, a single CD-ROM has a storage capacity of 700 MB, which is equivalent to about 3,00,000 text pages.",
+        "hi": "जैसा कि पाठ में कहा गया है, एक एकल सीडी-रोम की भंडारण क्षमता 700 MB होती है, जो लगभग 3,00,000 टेक्स्ट पेजों के बराबर है।"
+      },
+      "key_takeaway": {
+        "en": "Standard Compact Discs (CD-ROM) offer a baseline storage capacity of 700 MB.",
+        "hi": "मानक कॉम्पैक्ट डिस्क (CD-ROM) 700 MB की बुनियादी भंडारण क्षमता प्रदान करते हैं।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "In a computer system, the control signals of the Control Unit are usually transmitted by which specific part of the system bus?",
+        "hi": "कंप्यूटर सिस्टम में, कंट्रोल यूनिट के नियंत्रण संकेत (control signals) आमतौर पर सिस्टम बस के किस विशिष्ट भाग द्वारा प्रेषित किए जाते हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "Data bus",
+          "hi": "डेटा बस (Data bus)"
+        },
+        "b": {
+          "en": "Control bus",
+          "hi": "कंट्रोल बस (Control bus)"
+        },
+        "c": {
+          "en": "Address bus",
+          "hi": "एड्रेस बस (Address bus)"
+        },
+        "d": {
+          "en": "Memory bus",
+          "hi": "मेमोरी बस (Memory bus)"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The name of this bus matches the name of the signals it carries.",
+        "hi": "इस बस का नाम उसके द्वारा ले जाए जाने वाले संकेतों (signals) के नाम से मेल खाता है।"
+      },
+      "explanation": {
+        "en": "According to the component description of the Control Unit, control signals are distributed to elements and are usually transmitted by the part of the overall system bus called the control bus.",
+        "hi": "कंट्रोल यूनिट के घटक विवरण के अनुसार, नियंत्रण संकेत विभिन्न तत्वों में वितरित किए जाते हैं और आमतौर पर समग्र सिस्टम बस के उस हिस्से द्वारा प्रेषित किए जाते हैं जिसे 'कंट्रोल बस' कहा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "The control bus is dedicated to carrying signals that command and coordinate all computer components.",
+        "hi": "कंट्रोल बस का उपयोग उन संकेतों को ले जाने के लिए किया जाता है जो सभी कंप्यूटर घटकों को नियंत्रित और समन्वित करते हैं।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "Which type of printer is referred to as a 'page printer' because it prints one full page at a time using electrostatic technology?",
+        "hi": "किस प्रकार के प्रिंटर को 'पेज प्रिंटर' कहा जाता है क्योंकि यह इलेक्ट्रोस्टैटिक तकनीक का उपयोग करके एक बार में एक पूरा पेज प्रिंट करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Dot Matrix Printer",
+          "hi": "डॉट मैट्रिक्स प्रिंटर"
+        },
+        "b": {
+          "en": "Inkjet Printer",
+          "hi": "इंकजेट प्रिंटर"
+        },
+        "c": {
+          "en": "Laser Printer",
+          "hi": "लेजर प्रिंटर"
+        },
+        "d": {
+          "en": "Plotter",
+          "hi": "प्लॉटर"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It uses the same technology that photocopy machines use.",
+        "hi": "यह उसी तकनीक का उपयोग करता है जिसका उपयोग फोटोकॉपी मशीनें करती हैं।"
+      },
+      "explanation": {
+        "en": "A laser printer uses the same technology that photocopy machines use. It is an electrostatic digital printer that prints one page at a time (a page printer) and is very fast and highly resolute.",
+        "hi": "एक लेजर प्रिंटर उसी तकनीक का उपयोग करता है जिसका उपयोग फोटोकॉपी मशीनें करती हैं। यह एक इलेक्ट्रोस्टैटिक डिजिटल प्रिंटर है जो एक बार में एक पेज प्रिंट करता है (एक पेज प्रिंटर) और बहुत तेज़ और उच्च रेजोल्यूशन वाला होता है।"
+      },
+      "key_takeaway": {
+        "en": "Laser printers print an entire page at a time using electrostatic technology and laser beams.",
+        "hi": "लेजर प्रिंटर इलेक्ट्रोस्टैटिक तकनीक और लेजर बीम का उपयोग करके एक बार में पूरा पेज प्रिंट करते हैं।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "Why does Static RAM (SRAM) NOT require refreshing on a regular basis, unlike Dynamic RAM (DRAM)?",
+        "hi": "डायनेमिक रैम (DRAM) के विपरीत, स्टेटिक रैम (SRAM) को नियमित रूप से रिफ्रेश करने की आवश्यकता क्यों नहीं होती है?"
+      },
+      "options": {
+        "a": {
+          "en": "SRAM uses capacitors that can hold electric charge indefinitely.",
+          "hi": "SRAM कैपेसिटर का उपयोग करता है जो अनिश्चित काल तक विद्युत चार्ज रख सकते हैं।"
+        },
+        "b": {
+          "en": "SRAM is made of transistors which do not require power to prevent leakage.",
+          "hi": "SRAM ट्रांजिस्टर से बना होता है जिन्हें रिसाव (leakage) को रोकने के लिए बिजली की आवश्यकता नहीं होती है।"
+        },
+        "c": {
+          "en": "SRAM is a non-volatile memory that behaves like ROM.",
+          "hi": "SRAM एक गैर-अस्थिर मेमोरी है जो ROM की तरह व्यवहार करती है।"
+        },
+        "d": {
+          "en": "SRAM has no active electronic components, making refreshing unnecessary.",
+          "hi": "SRAM में कोई सक्रिय इलेक्ट्रॉनिक घटक नहीं होते हैं, जिससे रिफ्रेशिंग अनावश्यक हो जाती है।"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Capacitors are not used in SRAM, and they rely entirely on transistors.",
+        "hi": "SRAM में कैपेसिटर का उपयोग नहीं किया जाता है, और वे पूरी तरह से ट्रांजिस्टर पर निर्भर करते हैं।"
+      },
+      "explanation": {
+        "en": "According to the chapter, capacitors are not used in SRAM. Instead, transistors are used which do not require power to prevent leakage. Hence, SRAM does not need to be refreshed on a regular basis.",
+        "hi": "अध्याय के अनुसार, SRAM में कैपेसिटर का उपयोग नहीं किया जाता है। इसके बजाय, ट्रांजिस्टर का उपयोग किया जाता है जिन्हें रिसाव को रोकने के लिए बिजली की आवश्यकता नहीं होती है। इसलिए, SRAM को नियमित रूप से रिफ्रेश करने की आवश्यकता नहीं होती है।"
+      },
+      "key_takeaway": {
+        "en": "SRAM relies on transistors to maintain state, eliminating the need for periodic refresh cycles typical of DRAM's charge-decaying capacitors.",
+        "hi": "स्टेट को बनाए रखने के लिए SRAM ट्रांजिस्टर पर निर्भर करता है, जिससे DRAM के कैपेसिटर रिसाव की तरह बार-बार रिफ्रेश करने की आवश्यकता समाप्त हो जाती है।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Which of the following mathematical descriptions accurately defines the capacity of a Terabyte (TB)?",
+        "hi": "निम्नलिखित में से कौन सा गणितीय विवरण टेराबाइट (TB) की क्षमता को सटीक रूप से परिभाषित करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Approximately 2 to the 30th power bytes, or 1,024 Megabytes (MB)",
+          "hi": "लगभग 2 की घात 30 बाइट्स, या 1,024 मेगाबाइट (MB)"
+        },
+        "b": {
+          "en": "Approximately 2 to the 40th power bytes, or 1,024 Gigabytes (GB)",
+          "hi": "लगभग 2 की घात 40 बाइट्स, या 1,024 गीगाबाइट (GB)"
+        },
+        "c": {
+          "en": "Exactly 1 trillion bytes or 1,024 Petabytes (PB)",
+          "hi": "सटीक 1 ट्रिलियन बाइट्स या 1,024 पेटाबाइट (PB)"
+        },
+        "d": {
+          "en": "Exactly 1,048,576 bytes or 1,024 Kilobytes (KB)",
+          "hi": "सटीक 1,048,576 बाइट्स या 1,024 किलोबाइट (KB)"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of binary powers (base two) starting from KB (2^10), MB (2^20), GB (2^30), and TB (2^40).",
+        "hi": "बाइनरी घातों (बेस टू) के बारे में सोचें जो KB (2^10), MB (2^20), GB (2^30) और TB (2^40) से शुरू होती हैं।"
+      },
+      "explanation": {
+        "en": "The chapter states that a Terabyte (TB) is a measure of computer storage capacity that is approximately 2 to the 40th power (or 10 to the 12th power) bytes, which equals approximately a trillion bytes. It is precisely defined as 1,024 gigabytes (GB).",
+        "hi": "अध्याय में कहा गया है कि एक टेराबाइट (TB) कंप्यूटर भंडारण क्षमता का एक माप है जो लगभग 2 की घात 40 (या 10 की घात 12) बाइट्स के बराबर है, जो लगभग एक ट्रिलियन बाइट्स के बराबर है। इसे सटीक रूप से 1,024 गीगाबाइट (GB) के रूप में परिभाषित किया गया है।"
+      },
+      "key_takeaway": {
+        "en": "Storage capacities scale by powers of 2^10 (1024), where 1 TB is equivalent to 1,024 GB (2^40 bytes).",
+        "hi": "भंडारण क्षमताएं 2^10 (1024) की घातों द्वारा मापी जाती हैं, जहां 1 TB, 1,024 GB (2^40 बाइट्स) के बराबर होता है।"
+      }
+    }
+  ]
+}
