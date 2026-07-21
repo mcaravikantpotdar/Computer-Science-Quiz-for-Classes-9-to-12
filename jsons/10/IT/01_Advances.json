@@ -1,0 +1,579 @@
+{
+  "metadata": {
+    "chapter_title": "Network and Internet Concepts",
+    "class": "10",
+    "subject": "IT"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "A computer that is not connected to a network is known as a _________.",
+        "hi": "एक कंप्यूटर जो किसी नेटवर्क से जुड़ा नहीं है, उसे _________ के रूप में जाना जाता है।"
+      },
+      "options": {
+        "a": {
+          "en": "stand alone computer",
+          "hi": "स्टैंड अलोन कंप्यूटर"
+        },
+        "b": {
+          "en": "client",
+          "hi": "क्लाइंट"
+        },
+        "c": {
+          "en": "server",
+          "hi": "सर्वर"
+        },
+        "d": {
+          "en": "node",
+          "hi": "नोड"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It operates independently without sharing resources with other computers.",
+        "hi": "यह अन्य कंप्यूटरों के साथ संसाधनों को साझा किए बिना स्वतंत्र रूप से कार्य करता है।"
+      },
+      "explanation": {
+        "en": "According to the chapter, a computer that is not connected to a network is known as a stand-alone computer.",
+        "hi": "अध्याय के अनुसार, एक कंप्यूटर जो किसी नेटवर्क से जुड़ा नहीं होता है, उसे स्टैंड-अलोन कंप्यूटर कहा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Connecting computers to a network allows them to share resources and communicate, unlike stand-alone systems.",
+        "hi": "कंप्यूटरों को नेटवर्क से जोड़ने से वे स्टैंड-अलोन सिस्टम के विपरीत, संसाधनों को साझा और संचार कर पाते हैं।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "What does the abbreviation LAN stand for?",
+        "hi": "LAN का पूर्ण रूप क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "Local Area Network",
+          "hi": "लोकल एरिया नेटवर्क"
+        },
+        "b": {
+          "en": "Link Access Network",
+          "hi": "लिंक एक्सेस नेटवर्क"
+        },
+        "c": {
+          "en": "Logic Area Network",
+          "hi": "लॉजिक एरिया नेटवर्क"
+        },
+        "d": {
+          "en": "Large Area Network",
+          "hi": "लार्ज एरिया नेटवर्क"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "This network is typically used within an office building or home.",
+        "hi": "यह नेटवर्क आमतौर पर एक कार्यालय भवन या घर के भीतर उपयोग किया जाता है।"
+      },
+      "explanation": {
+        "en": "LAN stands for Local Area Network, which is used for communicating among computer devices usually within an office building or home.",
+        "hi": "LAN का अर्थ लोकल एरिया नेटवर्क है, जिसका उपयोग आमतौर पर कार्यालय भवन या घर के भीतर कंप्यूटर उपकरणों के बीच संचार के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "LAN is a localized network with high speed and low cost compared to MAN and WAN.",
+        "hi": "MAN और WAN की तुलना में LAN उच्च गति और कम लागत वाला एक स्थानीय नेटवर्क है।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Which type of network typically covers a diameter of 5 to 50 km, such as a city-wide cable TV network?",
+        "hi": "किस प्रकार का नेटवर्क आमतौर पर 5 से 50 किमी के व्यास को कवर करता है, जैसे कि शहर भर का केबल टीवी नेटवर्क?"
+      },
+      "options": {
+        "a": {
+          "en": "LAN",
+          "hi": "LAN"
+        },
+        "b": {
+          "en": "MAN",
+          "hi": "MAN"
+        },
+        "c": {
+          "en": "WAN",
+          "hi": "WAN"
+        },
+        "d": {
+          "en": "PAN",
+          "hi": "PAN"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It stands for Metropolitan Area Network.",
+        "hi": "इसका पूर्ण रूप मेट्रोपॉलिटन एरिया नेटवर्क है।"
+      },
+      "explanation": {
+        "en": "MAN (Metropolitan Area Network) typically covers an area of between 5 and 50 km diameter, such as a college campus or a city-wide cable TV network.",
+        "hi": "MAN (मेट्रोपॉलिटन एरिया नेटवर्क) आमतौर पर 5 से 50 किमी व्यास के बीच के क्षेत्र को कवर करता है, जैसे कि कॉलेज परिसर या शहर भर का केबल टीवी नेटवर्क।"
+      },
+      "key_takeaway": {
+        "en": "MAN is optimized for a larger geographical area than a LAN, covering towns or entire cities.",
+        "hi": "MAN को LAN की तुलना में बड़े भौगोलिक क्षेत्र के लिए अनुकूलित किया गया है, जो कस्बों या पूरे शहरों को कवर करता है।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "A Personal Area Network (PAN) is organized around an individual person within what typical distance?",
+        "hi": "एक पर्सनल एरिया नेटवर्क (PAN) एक व्यक्ति के आसपास कितनी सामान्य दूरी के भीतर व्यवस्थित होता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Within 10 meters (or 30 feet)",
+          "hi": "10 मीटर (या 30 फीट) के भीतर"
+        },
+        "b": {
+          "en": "Within 100 meters",
+          "hi": "100 मीटर के भीतर"
+        },
+        "c": {
+          "en": "Within 1 kilometer",
+          "hi": "1 किलोमीटर के भीतर"
+        },
+        "d": {
+          "en": "Within 5 kilometers",
+          "hi": "5 किलोमीटर के भीतर"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It covers the immediate environment of an individual user, like connecting a phone to a laptop.",
+        "hi": "यह किसी व्यक्तिगत उपयोगकर्ता के तात्कालिक वातावरण को कवर करता है, जैसे फोन को लैपटॉप से जोड़ना।"
+      },
+      "explanation": {
+        "en": "A PAN refers to the interconnection of devices within the environment of an individual user, typically within 10 meters or 30 feet.",
+        "hi": "PAN का तात्पर्य एक व्यक्तिगत उपयोगकर्ता के वातावरण के भीतर उपकरणों के अंतर्संबंध से है, जो आमतौर पर 10 मीटर या 30 फीट के भीतर होता है।"
+      },
+      "key_takeaway": {
+        "en": "PAN is the smallest network type, meant for personal workspace device connection.",
+        "hi": "PAN सबसे छोटा नेटवर्क प्रकार है, जो व्यक्तिगत कार्यक्षेत्र डिवाइस कनेक्शन के लिए है।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "Which network device is designed to receive, analyze, and forward incoming data within a network or to another network?",
+        "hi": "कौन सा नेटवर्क डिवाइस नेटवर्क के भीतर या दूसरे नेटवर्क पर आने वाले डेटा को प्राप्त करने, विश्लेषण करने और अग्रेषित करने के लिए डिज़ाइन किया गया है?"
+      },
+      "options": {
+        "a": {
+          "en": "Hub",
+          "hi": "हब"
+        },
+        "b": {
+          "en": "Switch",
+          "hi": "स्विच"
+        },
+        "c": {
+          "en": "Router",
+          "hi": "राउटर"
+        },
+        "d": {
+          "en": "NIC",
+          "hi": "एनआईसी"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This device determines the best route of information from sender to receiver.",
+        "hi": "यह डिवाइस प्रेषक से प्राप्तकर्ता तक जानकारी का सबसे अच्छा मार्ग निर्धारित करता है।"
+      },
+      "explanation": {
+        "en": "A router is a hardware device designed to receive, analyze, and forward incoming data within a network or to another network.",
+        "hi": "राउटर एक हार्डवेयर डिवाइस है जिसे नेटवर्क के भीतर या दूसरे नेटवर्क पर आने वाले डेटा को प्राप्त करने, विश्लेषण करने और अग्रेषित करने के लिए डिज़ाइन किया गया है।"
+      },
+      "key_takeaway": {
+        "en": "Routers are crucial for connecting separate networks and routing packets across them, such as connecting to the Internet.",
+        "hi": "इंटरनेट से कनेक्ट करने जैसे अलग-अलग नेटवर्क को जोड़ने और उन पर पैकेट रूट करने के लिए राउटर महत्वपूर्ण हैं।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "In which year did defense engineers send the first-ever instant message from UCLA to Stanford University?",
+        "hi": "रक्षा इंजीनियरों ने किस वर्ष UCLA से स्टैनफोर्ड यूनिवर्सिटी तक पहला तत्काल संदेश भेजा था?"
+      },
+      "options": {
+        "a": {
+          "en": "1969",
+          "hi": "1969"
+        },
+        "b": {
+          "en": "1975",
+          "hi": "1975"
+        },
+        "c": {
+          "en": "1985",
+          "hi": "1985"
+        },
+        "d": {
+          "en": "1995",
+          "hi": "1995"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "This event marked the early beginning of what would eventually become the Internet.",
+        "hi": "इस घटना ने शुरुआती शुरुआत को चिह्नित किया जो अंततः इंटरनेट बन गया।"
+      },
+      "explanation": {
+        "en": "In the year 1969, a team of defense engineers at UCLA sent the first-ever instant message via computer to Stanford University.",
+        "hi": "वर्ष 1969 में, UCLA के रक्षा इंजीनियरों की एक टीम ने कंप्यूटर के माध्यम से स्टैनफोर्ड विश्वविद्यालय को पहला तत्काल संदेश भेजा था।"
+      },
+      "key_takeaway": {
+        "en": "The early history of the Internet began in 1969 with node communication between UCLA and Stanford.",
+        "hi": "इंटरनेट का प्रारंभिक इतिहास 1969 में UCLA और स्टैनफोर्ड के बीच नोड संचार के साथ शुरू हुआ था।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "Which web browser is based on the open-source Chromium project and was released in 2008?",
+        "hi": "कौन सा वेब ब्राउज़र ओपन-सोर्स क्रोमियम प्रोजेक्ट पर आधारित है और 2008 में जारी किया गया था?"
+      },
+      "options": {
+        "a": {
+          "en": "Internet Explorer",
+          "hi": "इंटरनेट एक्सप्लोरर"
+        },
+        "b": {
+          "en": "Google Chrome",
+          "hi": "गूगल क्रोम"
+        },
+        "c": {
+          "en": "Mozilla Firefox",
+          "hi": "मोज़िला फ़ायरफ़ॉक्स"
+        },
+        "d": {
+          "en": "Opera",
+          "hi": "ओपेरा"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is known for its sandboxing-based security approach and very clean design.",
+        "hi": "यह अपनी सैंडबॉक्सिंग-आधारित सुरक्षा दृष्टिकोण और बहुत साफ डिज़ाइन के लिए जाना जाता है।"
+      },
+      "explanation": {
+        "en": "The Google Chrome web browser is based on the open-source Chromium project and was released in 2008.",
+        "hi": "गूगल क्रोम वेब ब्राउज़र ओपन-सोर्स क्रोमियम प्रोजेक्ट पर आधारित है और इसे 2008 में जारी किया गया था।"
+      },
+      "key_takeaway": {
+        "en": "Google Chrome is built on the Chromium project and emphasizes speed and multi-process security.",
+        "hi": "गूगल क्रोम क्रोमियम प्रोजेक्ट पर बनाया गया है और गति व मल्टी-प्रोसेस सुरक्षा पर जोर देता है।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "Which of the following protocols is used to send email messages?",
+        "hi": "ईमेल संदेश भेजने के लिए निम्नलिखित में से किस प्रोटोकॉल का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "SMTP",
+          "hi": "SMTP"
+        },
+        "b": {
+          "en": "POP",
+          "hi": "POP"
+        },
+        "c": {
+          "en": "IMAP",
+          "hi": "IMAP"
+        },
+        "d": {
+          "en": "HTTP",
+          "hi": "HTTP"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Its full form is Simple Mail Transfer Protocol.",
+        "hi": "इसका पूर्ण रूप सिंपल मेल ट्रांसफर प्रोटोकॉल है।"
+      },
+      "explanation": {
+        "en": "The chapter states that SMTP is used to send messages, while POP or IMAP protocols are used to retrieve messages from a mail server.",
+        "hi": "अध्याय में कहा गया है कि SMTP का उपयोग संदेश भेजने के लिए किया जाता है, जबकि मेल सर्वर से संदेश प्राप्त करने के लिए POP या IMAP प्रोटोकॉल का उपयोग किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "SMTP is for outbound mail delivery, whereas POP and IMAP are for inbound mail retrieval.",
+        "hi": "SMTP आउटबाउंड मेल डिलीवरी के लिए है, जबकि POP और IMAP इनबाउंड मेल पुनर्प्राप्ति के लिए हैं।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "Which of the following is considered the world's most popular Wide Area Network (WAN)?",
+        "hi": "निम्नलिखित में से किसे दुनिया का सबसे लोकप्रिय वाइड एरिया नेटवर्क (WAN) माना जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Intranet",
+          "hi": "इंट्रानेट"
+        },
+        "b": {
+          "en": "Internet",
+          "hi": "इंटरनेट"
+        },
+        "c": {
+          "en": "Ethernet",
+          "hi": "ईथरनेट"
+        },
+        "d": {
+          "en": "Bluetooth",
+          "hi": "ब्लूटूथ"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It connects billions of computers worldwide and uses the TCP/IP protocol suite.",
+        "hi": "यह दुनिया भर में अरबों कंप्यूटरों को जोड़ता है और TCP/IP प्रोटोकॉल सूट का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "The textbook directly states that 'The world's most popular WAN is the Internet.'",
+        "hi": "पाठ्यपुस्तक में सीधे कहा गया है कि 'दुनिया का सबसे लोकप्रिय WAN इंटरनेट है।'"
+      },
+      "key_takeaway": {
+        "en": "The Internet is the largest global WAN connecting millions of smaller networks.",
+        "hi": "इंटरनेट सबसे बड़ा वैश्विक WAN है जो लाखों छोटे नेटवर्कों को जोड़ता है।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Which networking device works in its simplest form by duplicating the data packets received via one port and making them available to all other ports?",
+        "hi": "कौन सा नेटवर्किंग डिवाइस अपने सबसे सरल रूप में एक पोर्ट के माध्यम से प्राप्त डेटा पैकेट को डुप्लिकेट करके अन्य सभी पोर्ट के लिए उपलब्ध कराता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Router",
+          "hi": "राउटर"
+        },
+        "b": {
+          "en": "Gateway",
+          "hi": "गेटवे"
+        },
+        "c": {
+          "en": "Hub",
+          "hi": "हब"
+        },
+        "d": {
+          "en": "Bridge",
+          "hi": "ब्रीज"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Unlike a switch, this device broadcasts incoming packets to every connected machine without filtering.",
+        "hi": "एक स्विच के विपरीत, यह डिवाइस बिना फ़िल्टर किए प्रत्येक कनेक्टेड मशीन पर आने वाले पैकेट को प्रसारित करता है।"
+      },
+      "explanation": {
+        "en": "The document explains that 'in its simplest form a hub works by duplicating the data packets received via one port and making it available to all ports.'",
+        "hi": "दस्तावेज़ स्पष्ट करता है कि 'अपने सबसे सरल रूप में एक हब एक पोर्ट के माध्यम से प्राप्त डेटा पैकेट को डुप्लिकेट करके और इसे सभी पोर्ट के लिए उपलब्ध कराकर काम करता है।'"
+      },
+      "key_takeaway": {
+        "en": "Hubs lack packet routing intelligence and broadcast data to all connected computers, unlike Switches.",
+        "hi": "हब में पैकेट रूटिंग इंटेलिजेंस की कमी होती है और वे स्विच के विपरीत, सभी जुड़े हुए कंप्यूटरों पर डेटा प्रसारित करते हैं।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "Based on the comparison table, which network type has 'Short' propagation delay, 'High' speed, and 'Less' congestion?",
+        "hi": "नेटवर्क के बीच तुलना तालिका के आधार पर, किस नेटवर्क में प्रोपेगेशन डिले 'कम (Short)', गति 'उच्च (High)' और संकुलन (congestion) 'कम (Less)' होता है?"
+      },
+      "options": {
+        "a": {
+          "en": "WAN",
+          "hi": "WAN"
+        },
+        "b": {
+          "en": "MAN",
+          "hi": "MAN"
+        },
+        "c": {
+          "en": "LAN",
+          "hi": "LAN"
+        },
+        "d": {
+          "en": "PAN",
+          "hi": "PAN"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This network is used within highly localized areas like colleges, schools, or hospitals.",
+        "hi": "इस नेटवर्क का उपयोग अत्यधिक स्थानीयकृत क्षेत्रों जैसे कॉलेजों, स्कूलों या अस्पतालों में किया जाता है।"
+      },
+      "explanation": {
+        "en": "In the comparison table (page 27 of document / page 11 of PDF), LAN is shown to have Short propagation delay, High speed, and Less congestion.",
+        "hi": "तुलना तालिका में, LAN को कम (Short) प्रोपेगेशन डिले, उच्च (High) गति और कम (Less) संकुलन वाला दिखाया गया है।"
+      },
+      "key_takeaway": {
+        "en": "LAN provides the highest speed and lowest latency (delay) among LAN, MAN, and WAN.",
+        "hi": "LAN, MAN और WAN के बीच सबसे अधिक गति और सबसे कम लेटेंसी (देरी) प्रदान करता है।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "In the email address format 'username@host', what does 'host' represent?",
+        "hi": "ईमेल पते के प्रारूप 'username@host' में 'host' क्या दर्शाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "The unique ID of the user",
+          "hi": "उपयोगकर्ता की विशिष्ट आईडी"
+        },
+        "b": {
+          "en": "The protocol used",
+          "hi": "उपयोग किया जाने वाला प्रोटोकॉल"
+        },
+        "c": {
+          "en": "The email service provider",
+          "hi": "ईमेल सेवा प्रदाता"
+        },
+        "d": {
+          "en": "The country domain",
+          "hi": "देश का डोमेन"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "For example, in 'ramulak48@yahoo.in', Yahoo is the provider.",
+        "hi": "उदाहरण के लिए, 'ramulak48@yahoo.in' में, याहू प्रदाता है।"
+      },
+      "explanation": {
+        "en": "The text states: 'Here host means the e-mail service provider for example in ramulak48@yahoo.in; username is ramulak48 and the website providing e-mail service facility is yahoo.'",
+        "hi": "पाठ में कहा गया है: 'यहाँ होस्ट का अर्थ ईमेल सेवा प्रदाता है उदाहरण के लिए ramulak48@yahoo.in में; उपयोगकर्ता नाम ramulak48 है और ईमेल सेवा सुविधा प्रदान करने वाली वेबसाइट yahoo है।'"
+      },
+      "key_takeaway": {
+        "en": "An email address is split into two sections: username (identifies user) and host (identifies service provider).",
+        "hi": "एक ईमेल पते को दो भागों में विभाजित किया जाता है: उपयोगकर्ता नाम (उपयोगकर्ता की पहचान करता है) और होस्ट (सेवा प्रदाता की पहचान करता है)।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "Which browser has a major disadvantage where downloads cannot be resumed if they are interrupted, and was designed primarily for high-speed Internet users?",
+        "hi": "किस ब्राउज़र का एक बड़ा नुकसान यह है कि बाधित होने पर डाउनलोड को फिर से शुरू नहीं किया जा सकता है, और इसे मुख्य रूप से हाई-स्पीड इंटरनेट उपयोगकर्ताओं के लिए डिज़ाइन किया गया था?"
+      },
+      "options": {
+        "a": {
+          "en": "Internet Explorer",
+          "hi": "इंटरनेट एक्सप्लोरर"
+        },
+        "b": {
+          "en": "Google Chrome",
+          "hi": "गूगल क्रोम"
+        },
+        "c": {
+          "en": "Mozilla Firefox",
+          "hi": "मोज़िला फ़ायरफ़ॉक्स"
+        },
+        "d": {
+          "en": "Opera",
+          "hi": "ओपेरा"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This browser was developed from the code from which Netscape was originally derived.",
+        "hi": "यह ब्राउज़र उस कोड से विकसित किया गया था जिससे मूल रूप से नेटस्केप व्युत्पन्न हुआ था।"
+      },
+      "explanation": {
+        "en": "The textbook lists as a disadvantage of Mozilla Firefox: 'downloads cannot be resumed if interrupted... Firefox was actually designed for people using high-speed Internet, which means dial-up users can run into many problems.'",
+        "hi": "पाठ्यपुस्तक मोज़िला फ़ायरफ़ॉक्स के नुकसान के रूप में सूचीबद्ध करती है: 'बाधित होने पर डाउनलोड फिर से शुरू नहीं किए जा सकते... फ़ायरफ़ॉक्स वास्तव में हाई-स्पीड इंटरनेट का उपयोग करने वाले लोगों के लिए डिज़ाइन किया गया था, जिसका अर्थ है कि डायल-अप उपयोगकर्ताओं को कई समस्याओं का सामना करना पड़ सकता है।'"
+      },
+      "key_takeaway": {
+        "en": "While Firefox offers security and tabbed browsing, its interrupted download service is a notable downside.",
+        "hi": "जबकि फ़ायरफ़ॉक्स सुरक्षा और टैब्ड ब्राउज़िंग प्रदान करता है, इसकी बाधित डाउनलोड सेवा एक उल्लेखनीय कमी है।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "Some websites do not show properly in Mozilla Firefox because it does not support which of the following?",
+        "hi": "कुछ वेबसाइटें मोज़िला फ़ायरफ़ॉक्स में ठीक से प्रदर्शित नहीं होती हैं क्योंकि यह निम्नलिखित में से किसका समर्थन नहीं करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "HTML5 and CSS",
+          "hi": "HTML5 और CSS"
+        },
+        "b": {
+          "en": "JavaScript",
+          "hi": "जावास्क्रिप्ट"
+        },
+        "c": {
+          "en": "ActiveX and VBScript",
+          "hi": "एक्टिवएक्स और वीबीस्क्रिप्ट"
+        },
+        "d": {
+          "en": "Images and Videos",
+          "hi": "चित्र और वीडियो"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "These proprietary Microsoft technologies are typically supported by Internet Explorer.",
+        "hi": "इन मालिकाना माइक्रोसॉफ्ट तकनीकों को आमतौर पर इंटरनेट एक्सप्लोरर द्वारा समर्थित किया जाता है।"
+      },
+      "explanation": {
+        "en": "The chapter mentions under Firefox disadvantages: 'Some websites do not show properly in Firefox, and require you to view them with IE. This includes pages with ActiveX and VBScript, both of which are not supported by Firefox.'",
+        "hi": "अध्याय में फ़ायरफ़ॉक्स के नुकसानों के तहत उल्लेख किया गया है: 'कुछ वेबसाइटें फ़ायरफ़ॉक्स में ठीक से नहीं दिखती हैं, और आपको उन्हें आईई के साथ देखने की आवश्यकता होती है। इसमें एक्टिवएक्स और वीबीस्क्रिप्ट वाले पृष्ठ शामिल हैं, दोनों ही फ़ायरफ़ॉक्स द्वारा समर्थित नहीं हैं।'"
+      },
+      "key_takeaway": {
+        "en": "Compatibility issues can arise in browsers like Firefox due to lack of support for proprietary technologies like ActiveX and VBScript.",
+        "hi": "एक्टिवएक्स और वीबीस्क्रिप्ट जैसी मालिकाना तकनीकों के समर्थन की कमी के कारण फ़ायरफ़ॉक्स जैसे ब्राउज़रों में संगतता समस्याएं आ सकती हैं।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "From October 2011 to October 2015, Yahoo search results were powered exclusively by which search engine?",
+        "hi": "अक्टूबर 2011 से अक्टूबर 2015 तक, याहू के खोज परिणाम विशेष रूप से किस खोज इंजन द्वारा संचालित थे?"
+      },
+      "options": {
+        "a": {
+          "en": "Google",
+          "hi": "गूगल"
+        },
+        "b": {
+          "en": "Bing",
+          "hi": "बिंग"
+        },
+        "c": {
+          "en": "DuckDuckGo",
+          "hi": "डकडकगो"
+        },
+        "d": {
+          "en": "Ask.com",
+          "hi": "आस्क.कॉम"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is Microsoft's attempt to challenge Google in search.",
+        "hi": "यह खोज में गूगल को चुनौती देने का माइक्रोसॉफ्ट का प्रयास है।"
+      },
+      "explanation": {
+        "en": "According to the section on Yahoo: 'From October 2011 to October 2015, Yahoo search was powered exclusively by Bing.'",
+        "hi": "याहू पर अनुभाग के अनुसार: 'अक्टूबर 2011 से अक्टूबर 2015 तक, याहू खोज विशेष रूप से बिंग द्वारा संचालित थी।'"
+      },
+      "key_takeaway": {
+        "en": "Major search engines often partner to share indexing and search-related backends.",
+        "hi": "प्रमुख सर्च इंजन अक्सर इंडेक्सिंग और सर्च-संबंधित बैकएंड साझा करने के लिए साझेदारी करते हैं।"
+      }
+    }
+  ]
+}
