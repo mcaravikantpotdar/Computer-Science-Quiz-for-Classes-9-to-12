@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "chapter_title": "Digital Network Essentials",
+    "class": "11",
+    "subject": "IT"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "What is the abbreviation 'Internet' short for, according to the document?",
+        "hi": "दस्तावेज़ के अनुसार, संक्षिप्त नाम 'इंटरनेट' (Internet) किसका संक्षिप्त रूप है?"
+      },
+      "options": {
+        "a": {
+          "en": "Internal Network",
+          "hi": "इंटरनल नेटवर्क"
+        },
+        "b": {
+          "en": "INTERnational NETwork",
+          "hi": "इंटरनेशनल नेटवर्क"
+        },
+        "c": {
+          "en": "Interconnected Network",
+          "hi": "इंटरकनेक्टेड नेटवर्क"
+        },
+        "d": {
+          "en": "Intellectual Network",
+          "hi": "इंटेलेक्चुअल नेटवर्क"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It refers to a global network of computers.",
+        "hi": "यह कंप्यूटरों के एक वैश्विक नेटवर्क को संदर्भित करता है।"
+      },
+      "explanation": {
+        "en": "The document states that 'Internet' is the abbreviation for 'INTERnational NETwork'.",
+        "hi": "दस्तावेज़ में स्पष्ट रूप से उल्लेख है कि 'Internet' शब्द 'INTERnational NETwork' का संक्षिप्त रूप है।"
+      },
+      "key_takeaway": {
+        "en": "The word Internet is derived from 'International Network'.",
+        "hi": "इंटरनेट शब्द 'इंटरनेशनल नेटवर्क' से बना है।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "In which year and by whom was the 'World-wide-web' (WWW) created at CERN in Switzerland?",
+        "hi": "स्विट्जरलैंड में CERN में 'वर्ल्ड-वाइड-वेब' (WWW) का निर्माण किस वर्ष और किसके द्वारा किया गया था?"
+      },
+      "options": {
+        "a": {
+          "en": "1969, by Advanced Research Projects Agency",
+          "hi": "1969, एडवांस रिसर्च प्रोजेक्ट्स एजेंसी द्वारा"
+        },
+        "b": {
+          "en": "1990, by Tim Berners Lee",
+          "hi": "1990, टिम बर्नर्स ली द्वारा"
+        },
+        "c": {
+          "en": "1990, by Charles Babbage",
+          "hi": "1990, चार्ल्स बैबेज द्वारा"
+        },
+        "d": {
+          "en": "1969, by Tim Berners Lee",
+          "hi": "1969, टिम बर्नर्स ली द्वारा"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It was created by a British man in the last decade of the 20th century.",
+        "hi": "इसे 20वीं सदी के आखिरी दशक में एक ब्रिटिश व्यक्ति द्वारा बनाया गया था।"
+      },
+      "explanation": {
+        "en": "According to the text, the 'World-wide-web' (WWW) was created at CERN in Switzerland in the year 1990 by a British man named 'Tim Berners Lee'.",
+        "hi": "पाठ के अनुसार, 'वर्ल्ड-वाइड-वेब' (WWW) का निर्माण स्विट्जरलैंड के CERN में वर्ष 1990 में 'टिम बर्नर्स ली' नामक एक ब्रिटिश व्यक्ति द्वारा किया गया था।"
+      },
+      "key_takeaway": {
+        "en": "Tim Berners Lee created the World Wide Web in 1990.",
+        "hi": "टिम बर्नर्स ली ने 1990 में वर्ल्ड वाइड वेब का निर्माण किया था।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Which of the following is considered as the subset of ICT (Information and Communication Technology)?",
+        "hi": "निम्नलिखित में से किसे ICT (सूचना और संचार प्रौद्योगिकी) का सबसेट माना जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Information Technology (I.T.)",
+          "hi": "सूचना प्रौद्योगिकी (आई.टी.)"
+        },
+        "b": {
+          "en": "Internet of Things (IoT)",
+          "hi": "इंटरनेट ऑफ थिंग्स (IoT)"
+        },
+        "c": {
+          "en": "Data Communication",
+          "hi": "डेटा संचार"
+        },
+        "d": {
+          "en": "Network Transmission",
+          "hi": "नेटवर्क ट्रांसमिशन"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It is the application of computers to store, retrieve, transmit, and process data.",
+        "hi": "यह डेटा को संग्रहीत, पुनः प्राप्त, संचारित और संसाधित करने के लिए कंप्यूटर का अनुप्रयोग है।"
+      },
+      "explanation": {
+        "en": "The text explicitly states: 'IT is considered as the subset of ICT (Information and Communication Technology)'.",
+        "hi": "पाठ में स्पष्ट रूप से कहा गया है: 'IT को ICT (सूचना और संचार प्रौद्योगिकी) का सबसेट माना जाता है'।"
+      },
+      "key_takeaway": {
+        "en": "Information Technology (IT) is a smaller subset of the broader Information and Communication Technology (ICT) field.",
+        "hi": "सूचना प्रौद्योगिकी (IT) व्यापक सूचना और संचार प्रौद्योगिकी (ICT) क्षेत्र का एक छोटा सबसेट है।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "What are the three basic components of data communication?",
+        "hi": "डेटा संचार के तीन बुनियादी घटक कौन से हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "Computer, Router, Server",
+          "hi": "कंप्यूटर, राउटर, सर्वर"
+        },
+        "b": {
+          "en": "Sender, medium and receiver",
+          "hi": "प्रेषक, माध्यम और रिसीवर"
+        },
+        "c": {
+          "en": "Email, Browser, Website",
+          "hi": "ईमेल, ब्राउज़र, वेबसाइट"
+        },
+        "d": {
+          "en": "LAN, MAN, WAN",
+          "hi": "लैन, मैन, वैन"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "They refer to the source, the path, and the destination of the data.",
+        "hi": "वे डेटा के स्रोत, पथ और गंतव्य को संदर्भित करते हैं।"
+      },
+      "explanation": {
+        "en": "The text states that there are three basic components of data communication: Sender, medium and receiver.",
+        "hi": "पाठ में कहा गया है कि डेटा संचार के तीन बुनियादी घटक हैं: प्रेषक, माध्यम और रिसीवर।"
+      },
+      "key_takeaway": {
+        "en": "Every data communication system requires a sender, a transmission medium, and a receiver.",
+        "hi": "प्रत्येक डेटा संचार प्रणाली के लिए एक प्रेषक, एक ट्रांसमिशन माध्यम और एक रिसीवर की आवश्यकता होती है।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "What does the abbreviation Wi-Fi stand for?",
+        "hi": "वाई-फाई (Wi-Fi) का पूर्ण रूप क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "Wireless Fiber",
+          "hi": "वायरलेस फाइबर"
+        },
+        "b": {
+          "en": "Wireless Focus",
+          "hi": "वायरलेस फोकस"
+        },
+        "c": {
+          "en": "Wireless Fidelity",
+          "hi": "वायरलेस फिडेलिटी"
+        },
+        "d": {
+          "en": "Wired Fixed",
+          "hi": "वायर्ड फिक्सड"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is used to create a LAN without wires.",
+        "hi": "इसका उपयोग तारों के बिना LAN बनाने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "According to the chapter, 'Wi-Fi stands for Wireless Fidelity'.",
+        "hi": "अध्याय के अनुसार, 'Wi-Fi का मतलब वायरलेस फिडेलिटी (Wireless Fidelity) है'।"
+      },
+      "key_takeaway": {
+        "en": "Wi-Fi is a popular wireless technology representing Wireless Fidelity.",
+        "hi": "Wi-Fi एक लोकप्रिय वायरलेस तकनीक है जो वायरलेस फिडेलिटी का प्रतिनिधित्व करती है।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "Which type of computer network connects devices in a very small area such as a single room?",
+        "hi": "किस प्रकार का कंप्यूटर नेटवर्क एक बहुत छोटे क्षेत्र जैसे कि एक कमरे में उपकरणों को जोड़ता है?"
+      },
+      "options": {
+        "a": {
+          "en": "LAN",
+          "hi": "LAN"
+        },
+        "b": {
+          "en": "MAN",
+          "hi": "MAN"
+        },
+        "c": {
+          "en": "WAN",
+          "hi": "WAN"
+        },
+        "d": {
+          "en": "PAN",
+          "hi": "PAN"
+        }
+      },
+      "correct_option": "d",
+      "hint": {
+        "en": "Bluetooth is an unguided media typically used in this network type.",
+        "hi": "ब्लूटूथ एक अनगाइडेड मीडिया है जो आमतौर पर इस प्रकार के नेटवर्क में उपयोग किया जाता है।"
+      },
+      "explanation": {
+        "en": "The text states: 'PAN is a computer network that connects devices in a very small area such as a room.'",
+        "hi": "पाठ में कहा गया है: 'PAN एक कंप्यूटर नेटवर्क है जो एक कमरे जैसे बहुत छोटे क्षेत्र में उपकरणों को जोड़ता है।'"
+      },
+      "key_takeaway": {
+        "en": "PAN (Personal Area Network) covers the smallest geographical area among the standard network types.",
+        "hi": "PAN (पर्सनल एरिया नेटवर्क) मानक नेटवर्क प्रकारों में सबसे छोटे भौगोलिक क्षेत्र को कवर करता है।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "When a person visits different websites on the internet with some specific objective but without a search strategy, it is called:",
+        "hi": "जब कोई व्यक्ति किसी विशिष्ट उद्देश्य के साथ इंटरनेट पर विभिन्न वेबसाइटों पर बिना किसी खोज रणनीति के जाता है, तो उसे क्या कहा जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Web Surfing",
+          "hi": "वेब सर्फिंग"
+        },
+        "b": {
+          "en": "Web Searching",
+          "hi": "वेब सर्चिंग"
+        },
+        "c": {
+          "en": "Web Browsing",
+          "hi": "वेब ब्राउज़िंग"
+        },
+        "d": {
+          "en": "Internet Searching",
+          "hi": "इंटरनेट सर्चिंग"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It involves having a specific goal, unlike surfing, but lacks a search engine strategy.",
+        "hi": "इसमें सर्फिंग के विपरीत एक विशिष्ट लक्ष्य होता है, लेकिन एक खोज इंजन रणनीति की कमी होती है।"
+      },
+      "explanation": {
+        "en": "According to the definitions in the text: 'Web Browsing: Web-Browsing means when a person visits different websites on the internet with some specific objective but without a search strategy.'",
+        "hi": "पाठ की परिभाषाओं के अनुसार: 'वेब ब्राउज़िंग का अर्थ है जब कोई व्यक्ति किसी विशिष्ट उद्देश्य के साथ इंटरनेट पर विभिन्न वेबसाइटों पर बिना किसी खोज रणनीति के जाता है।'"
+      },
+      "key_takeaway": {
+        "en": "Web browsing is defined by having a objective but no systematic search strategy.",
+        "hi": "वेब ब्राउज़िंग को एक उद्देश्य होने लेकिन एक व्यवस्थित खोज रणनीति न होने द्वारा परिभाषित किया गया है।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "In data communication, the device that receives the data transmitted by the sender is also known as:",
+        "hi": "डेटा संचार में, प्रेषक द्वारा प्रेषित डेटा प्राप्त करने वाले उपकरण को किस अन्य नाम से भी जाना जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Source",
+          "hi": "सोर्स (स्रोत)"
+        },
+        "b": {
+          "en": "Transmitter",
+          "hi": "ट्रांसमीटर"
+        },
+        "c": {
+          "en": "sink",
+          "hi": "सिंक"
+        },
+        "d": {
+          "en": "Medium",
+          "hi": "माध्यम"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "While the sender is called 'source' or 'transmitter', this is called the opposite term.",
+        "hi": "जबकि प्रेषक को 'स्रोत' या 'ट्रांसमीटर' कहा जाता है, इसे इसका विपरीत शब्द कहा जाता है।"
+      },
+      "explanation": {
+        "en": "Under the Data Communication section, the text states: 'Receiver: The receiver is the device that receives the data transmitted by the sender. It is also called as \"sink\".'",
+        "hi": "डेटा संचार अनुभाग के तहत, पाठ में कहा गया है: 'रिसीवर वह डिवाइस है जो प्रेषक द्वारा प्रेषित डेटा प्राप्त करता है। इसे \"सिंक\" भी कहा जाता है।'"
+      },
+      "key_takeaway": {
+        "en": "The terms 'Source' (Sender) and 'Sink' (Receiver) represent the endpoints of a data communication system.",
+        "hi": "शब्द 'स्रोत' (प्रेषक) और 'सिंक' (रिसीवर) डेटा संचार प्रणाली के अंतिम बिंदुओं का प्रतिनिधित्व करते हैं।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "According to the text, which unguided (wireless) media is typically used in a Metropolitan Area Network (MAN)?",
+        "hi": "पाठ के अनुसार, मेट्रोपॉलिटन एरिया नेटवर्क (MAN) में आमतौर पर किस अनगाइडेड (वायरलेस) मीडिया का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Wifi",
+          "hi": "वाईफाई (Wifi)"
+        },
+        "b": {
+          "en": "Microwave link",
+          "hi": "माइक्रोवेव लिंक"
+        },
+        "c": {
+          "en": "Satellite communication",
+          "hi": "सैटेलाइट संचार"
+        },
+        "d": {
+          "en": "Bluetooth",
+          "hi": "ब्लूटूथ"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This unguided media uses antennas on towers to send signals up to several kilometres.",
+        "hi": "यह अनगाइडेड मीडिया सिग्नल भेजने के लिए टावरों पर एंटेना का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "In the comparison of network types, the text states for MAN: 'Unguided media such as Microwave link are used in MAN.'",
+        "hi": "नेटवर्क प्रकारों की तुलना में, पाठ में MAN के लिए कहा गया है: 'MAN में अनगाइडेड मीडिया जैसे माइक्रोवेव लिंक का उपयोग किया जाता है।'"
+      },
+      "key_takeaway": {
+        "en": "MAN networks utilize microwave links as their main unguided transmission media.",
+        "hi": "MAN नेटवर्क अपने मुख्य अनगाइडेड ट्रांसमिशन मीडिया के रूप में माइक्रोवेव लिंक का उपयोग करते हैं।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Which transmission cable transmits data using optical signals (light pulses) and is commonly used for long distance, very-high speed data communication networks?",
+        "hi": "कौन सी ट्रांसमिशन केबल ऑप्टिकल सिग्नल (लाइट पल्स) का उपयोग करके डेटा संचारित करती है और आमतौर पर लंबी दूरी के अत्यंत उच्च गति वाले डेटा संचार नेटवर्क के लिए उपयोग की जाती है?"
+      },
+      "options": {
+        "a": {
+          "en": "Twisted-pair cable",
+          "hi": "ट्विस्टेड-पेयर केबल"
+        },
+        "b": {
+          "en": "Co-axial cable",
+          "hi": "को-एक्सियल केबल"
+        },
+        "c": {
+          "en": "Fibre-Optic Cable",
+          "hi": "फाइबर-ऑप्टिक केबल"
+        },
+        "d": {
+          "en": "Copper wire cable",
+          "hi": "तांबे के तार की केबल"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This cable has thin fibres of glass or plastic.",
+        "hi": "इस केबल में कांच या प्लास्टिक के पतले रेशे होते हैं।"
+      },
+      "explanation": {
+        "en": "The text states: 'Fibre-Optic Cable: This cable has thin fibres of glass or plastic. It transmits data using optical signals (light pulses). These cables are commonly used for long distance very-high speed data communication networks.'",
+        "hi": "पाठ में कहा गया है: 'फाइबर-ऑप्टिक केबल: इस केबल में कांच या प्लास्टिक के पतले रेशे होते हैं। यह ऑप्टिकल सिग्नल (लाइट पल्स) का उपयोग करके डेटा प्रसारित करता है। ये केबल आमतौर पर लंबी दूरी के अति-उच्च गति डेटा संचार नेटवर्क के लिए उपयोग किए जाते हैं।'"
+      },
+      "key_takeaway": {
+        "en": "Fiber-optic cables use light pulses (optical signals) to transmit data at very high speeds over long distances.",
+        "hi": "फाइबर-ऑप्टिक केबल लंबी दूरी पर बहुत उच्च गति से डेटा प्रसारित करने के लिए प्रकाश तरंगों (ऑप्टिकल संकेतों) का उपयोग करते हैं।"
+      }
+    }
+  ]
+}
