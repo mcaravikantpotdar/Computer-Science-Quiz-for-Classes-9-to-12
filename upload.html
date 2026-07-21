@@ -13,6 +13,9 @@
         .form-group { margin-bottom: 18px; }
         label { display: block; font-size: 11px; font-weight: 700; color: #475569; text-transform: uppercase; margin-bottom: 6px; }
         select, input[type="text"], input[type="number"], input[type="file"] { width: 100%; padding: 11px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 14px; outline: none; }
+        .divider { display: flex; align-items: center; text-align: center; margin: 8px 0; color: #94a3b8; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+        .divider::before, .divider::after { content: ''; flex: 1; border-bottom: 1px dashed #cbd5e1; }
+        .divider span { padding: 0 8px; }
         .btn-submit { width: 100%; background: #2563eb; color: #ffffff; border: none; padding: 14px; border-radius: 8px; font-size: 15px; font-weight: 700; cursor: pointer; margin-top: 10px; }
         .btn-submit:disabled { background: #94a3b8; cursor: not-allowed; }
         .status-msg { margin-top: 16px; padding: 12px; border-radius: 8px; font-size: 13px; text-align: center; display: none; }
@@ -31,17 +34,21 @@
     <form id="quizForm">
         <div class="form-group">
             <label>1. Target Class</label>
-            <input type="text" id="newClass" placeholder="e.g. Class 11" required>
+            <select id="classSelect"><option value="">-- Scanning GitHub Folders... --</option></select>
+            <div class="divider"><span>OR CREATE NEW</span></div>
+            <input type="text" id="newClass" placeholder="e.g. Class 11" autocomplete="off">
         </div>
 
         <div class="form-group">
             <label>2. Target Subject</label>
-            <input type="text" id="newSubject" placeholder="e.g. Information Technology" required>
+            <select id="subjectSelect"><option value="">-- Scanning GitHub Folders... --</option></select>
+            <div class="divider"><span>OR CREATE NEW</span></div>
+            <input type="text" id="newSubject" placeholder="e.g. Information Technology" autocomplete="off">
         </div>
 
         <div class="form-group">
             <label>3. Lesson / Chapter Title</label>
-            <input type="text" id="lessonName" placeholder="e.g. HTML Basics" required>
+            <input type="text" id="lessonName" placeholder="e.g. HTML Basics" required autocomplete="off">
         </div>
 
         <div class="form-group">
@@ -61,6 +68,26 @@
 
 <script>
     const WEBHOOK_URL = 'https://verygood123.app.n8n.cloud/webhook/generate-quiz';
+    const REPO_OWNER = 'mcaravikantpotdar';
+    const REPO_NAME = 'Computer-Science-Quiz-for-Classes-9-to-12';
+
+    // Fetch dropdowns from your GitHub repository
+    fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/main?recursive=1`)
+        .then(res => res.json())
+        .then(data => {
+            const classes = new Set(), subjects = new Set();
+            if (data.tree) {
+                data.tree.forEach(item => {
+                    if (item.path.startsWith('jsons/')) {
+                        const parts = item.path.split('/');
+                        if (parts[1]) classes.add(parts[1].replace(/_/g, ' '));
+                        if (parts[2]) subjects.add(parts[2].replace(/_/g, ' '));
+                    }
+                });
+            }
+            document.getElementById('classSelect').innerHTML = '<option value="">-- Select Existing Class --</option>' + Array.from(classes).sort().map(c => `<option value="${c}">${c}</option>`).join('');
+            document.getElementById('subjectSelect').innerHTML = '<option value="">-- Select Existing Subject --</option>' + Array.from(subjects).sort().map(s => `<option value="${s}">${s}</option>`).join('');
+        });
 
     function showStatus(msg, type) {
         const el = document.getElementById('status');
@@ -73,7 +100,7 @@
         e.preventDefault();
         const btn = document.getElementById('submitBtn');
         btn.disabled = true;
-        showStatus('⏳ Extracting PDF...', 'info');
+        showStatus('⏳ Extracting PDF into text...', 'info');
 
         const file = document.getElementById('pdfFile').files[0];
         const reader = new FileReader();
@@ -83,7 +110,9 @@
                 showStatus('🚀 Sending to n8n...', 'info');
                 
                 const payload = {
+                    existingClass: document.getElementById('classSelect').value,
                     newClass: document.getElementById('newClass').value,
+                    existingSubject: document.getElementById('subjectSelect').value,
                     newSubject: document.getElementById('newSubject').value,
                     lessonName: document.getElementById('lessonName').value,
                     qCount: document.getElementById('qCount').value,
