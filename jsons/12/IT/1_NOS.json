@@ -1,0 +1,769 @@
+{
+  "metadata": {
+    "chapter_title": "Network Operating System (NOS) & Linux",
+    "class": "12",
+    "subject": "IT"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "Which of the following is the largest computer network in the world?",
+        "hi": "निम्नलिखित में से कौन सा दुनिया का सबसे बड़ा कंप्यूटर नेटवर्क है?"
+      },
+      "options": {
+        "a": {
+          "en": "Intranet",
+          "hi": "इंट्रानेट"
+        },
+        "b": {
+          "en": "Internet",
+          "hi": "इंटरनेट"
+        },
+        "c": {
+          "en": "LAN",
+          "hi": "लैन"
+        },
+        "d": {
+          "en": "WAN",
+          "hi": "वैन"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It includes all other networks and devices worldwide.",
+        "hi": "इसमें दुनिया भर के अन्य सभी नेटवर्क और डिवाइस शामिल हैं।"
+      },
+      "explanation": {
+        "en": "According to the document, the Internet is the largest computer network in this world, which includes all other networks and devices worldwide.",
+        "hi": "दस्तावेज़ के अनुसार, इंटरनेट इस दुनिया का सबसे बड़ा कंप्यूटर नेटवर्क है, जिसमें दुनिया भर के अन्य सभी नेटवर्क और डिवाइस शामिल हैं।"
+      },
+      "key_takeaway": {
+        "en": "The Internet is a global network of interconnected networks.",
+        "hi": "इंटरनेट आपस में जुड़े नेटवर्कों का एक वैश्विक नेटवर्क है।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "Which hardware device helps computers and other devices connect to a wired transmission medium?",
+        "hi": "कौन सा हार्डवेयर डिवाइस कंप्यूटर और अन्य उपकरणों को वायर्ड ट्रांसमिशन माध्यम से कनेक्ट होने में मदद करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Router",
+          "hi": "राउटर"
+        },
+        "b": {
+          "en": "Hub",
+          "hi": "हब"
+        },
+        "c": {
+          "en": "NIC (Network Interface Card)",
+          "hi": "एनआईसी (नेटवर्क इंटरफ़ेस कार्ड)"
+        },
+        "d": {
+          "en": "Switch",
+          "hi": "स्विच"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It stands for Network Interface Card.",
+        "hi": "इसका संक्षिप्त रूप नेटवर्क इंटरफ़ेस कार्ड है।"
+      },
+      "explanation": {
+        "en": "NIC stands for 'Network Interface Card'. It is a hardware device that helps computers and devices get connected to wired media.",
+        "hi": "NIC का अर्थ 'नेटवर्क इंटरफेस कार्ड' है। यह एक हार्डवेयर डिवाइस है जो कंप्यूटर और उपकरणों को वायर्ड मीडिया से कनेक्ट करने में मदद करता है।"
+      },
+      "key_takeaway": {
+        "en": "NIC is essential for connecting a computing device to a physical/wired network.",
+        "hi": "कंप्यूटिंग डिवाइस को वायर्ड नेटवर्क से जोड़ने के लिए एनआईसी आवश्यक है।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "What does the abbreviation TCP/IP stand for?",
+        "hi": "TCP/IP का पूरा नाम क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "Transmission Control Protocol/Internet Protocol",
+          "hi": "ट्रांसमिशन कंट्रोल प्रोटोकॉल/इंटरनेट प्रोटोकॉल"
+        },
+        "b": {
+          "en": "Transfer Connection Protocol/Intranet Protocol",
+          "hi": "ट्रांसफर कनेक्शन प्रोटोकॉल/इंट्रानेट प्रोटोकॉल"
+        },
+        "c": {
+          "en": "Technical Control Program/Internet Protocol",
+          "hi": "टेक्नीकल कंट्रोल प्रोग्राम/इंटरनेट प्रोटोकॉल"
+        },
+        "d": {
+          "en": "Telecom Connection Protocol/Information Protocol",
+          "hi": "टेलीकॉम कनेक्शन प्रोटोकॉल/इन्फॉर्मेशन प्रोटोकॉल"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It is a set of communication protocols used by all devices on a network to communicate.",
+        "hi": "यह संचार प्रोटोकॉल का एक सेट है जिसका उपयोग नेटवर्क पर सभी उपकरणों द्वारा संचार करने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "TCP/IP stands for 'Transmission Control Protocol/Internet Protocol' and is used by all computers on a network to communicate.",
+        "hi": "TCP/IP का अर्थ 'ट्रांसमिशन कंट्रोल प्रोटोकॉल/इंटरनेट प्रोटोकॉल' है और इसका उपयोग नेटवर्क के सभी कंप्यूटरों द्वारा संचार करने के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "TCP/IP is the foundational protocol suite for communication across the internet and local networks.",
+        "hi": "TCP/IP इंटरनेट और स्थानीय नेटवर्क पर संचार के लिए मूलभूत प्रोटोकॉल सूट है।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "Which of the following was the first Network Operating System (NOS), developed in 1985?",
+        "hi": "1985 में विकसित किया गया पहला नेटवर्क ऑपरेटिंग सिस्टम (NOS) कौन सा था?"
+      },
+      "options": {
+        "a": {
+          "en": "Windows NT",
+          "hi": "विंडोज एनटी"
+        },
+        "b": {
+          "en": "Novel NetWare",
+          "hi": "नॉवेल नेटवेयर"
+        },
+        "c": {
+          "en": "Linux",
+          "hi": "लिनक्स"
+        },
+        "d": {
+          "en": "Sun Solaris",
+          "hi": "सन सोलारिस"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The name starts with 'Novel'.",
+        "hi": "यह नाम 'नॉवेल' से शुरू होता है।"
+      },
+      "explanation": {
+        "en": "Novel NetWare was the first Network Operating System (NOS) developed in the year 1985.",
+        "hi": "नॉवेल नेटवेयर वर्ष 1985 में विकसित किया गया पहला नेटवर्क ऑपरेटिंग सिस्टम (NOS) था।"
+      },
+      "key_takeaway": {
+        "en": "Novel NetWare pioneered the commercial network operating system market.",
+        "hi": "नॉवेल नेटवेयर ने वाणिज्यिक नेटवर्क ऑपरेटिंग सिस्टम बाजार की शुरुआत की थी।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "Who developed the Linux operating system, and in which year?",
+        "hi": "लिनक्स ऑपरेटिंग सिस्टम का विकास किसने और किस वर्ष किया था?"
+      },
+      "options": {
+        "a": {
+          "en": "Stephen Bourne, 1985",
+          "hi": "स्टीफन बॉर्न, 1985"
+        },
+        "b": {
+          "en": "David Korn, 1991",
+          "hi": "डेविड कॉर्न, 1991"
+        },
+        "c": {
+          "en": "Linus Torvalds, 1991",
+          "hi": "लिनस टॉरवाल्ड्स, 1991"
+        },
+        "d": {
+          "en": "Linus Torvalds, 1985",
+          "hi": "लिनस टॉरवाल्ड्स, 1985"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The developer's first name matches the name of the operating system.",
+        "hi": "डेवलपर का नाम ऑपरेटिंग सिस्टम के नाम से काफी मिलता-जुलता है।"
+      },
+      "explanation": {
+        "en": "Linux was developed by 'Linus Torvalds' in the year 1991 as an open-source Network-Operating System.",
+        "hi": "लिनक्स को 'लिनस टॉरवाल्ड्स' द्वारा वर्ष 1991 में एक ओपन-सोर्स नेटवर्क ऑपरेटिंग सिस्टम के रूप में विकसित किया गया था।"
+      },
+      "key_takeaway": {
+        "en": "Linux is a free and open-source Unix-like OS developed in 1991.",
+        "hi": "लिनक्स 1991 में विकसित एक मुफ्त और ओपन-सोर्स यूनिक्स जैसा ओएस है।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "Which command in Linux displays the path of the current directory the user is working in?",
+        "hi": "लिनक्स में कौन सा कमांड उस वर्तमान निर्देशिका (directory) का पथ दिखाता है जिसमें उपयोगकर्ता काम कर रहा है?"
+      },
+      "options": {
+        "a": {
+          "en": "ls",
+          "hi": "ls"
+        },
+        "b": {
+          "en": "whoami",
+          "hi": "whoami"
+        },
+        "c": {
+          "en": "pwd",
+          "hi": "pwd"
+        },
+        "d": {
+          "en": "cd",
+          "hi": "cd"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It stands for 'print working directory'.",
+        "hi": "इसका अर्थ 'प्रिंट वर्किंग डायरेक्टरी' है।"
+      },
+      "explanation": {
+        "en": "The 'pwd' command stands for 'print working directory' and displays the name of the directory in which the user is currently working.",
+        "hi": "'pwd' कमांड का अर्थ 'प्रिंट वर्किंग डायरेक्टरी' है और यह उस डायरेक्टरी का नाम प्रदर्शित करता है जिसमें उपयोगकर्ता वर्तमान में कार्य कर रहा है।"
+      },
+      "key_takeaway": {
+        "en": "The pwd command helps users identify their current location in the directory tree.",
+        "hi": "pwd कमांड उपयोगकर्ताओं को डायरेक्टरी ट्री में अपनी वर्तमान स्थिति की पहचान करने में मदद करता है।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "Which symbol is used to denote the shell prompt in Linux?",
+        "hi": "लिनक्स में शेल प्रॉम्ट को दर्शाने के लिए किस प्रतीक का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "#",
+          "hi": "#"
+        },
+        "b": {
+          "en": "$",
+          "hi": "$"
+        },
+        "c": {
+          "en": "&",
+          "hi": "&"
+        },
+        "d": {
+          "en": "@",
+          "hi": "@"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is also commonly used as a currency symbol for dollars.",
+        "hi": "यह आमतौर पर डॉलर मुद्रा के प्रतीक के रूप में भी उपयोग किया जाता है।"
+      },
+      "explanation": {
+        "en": "Normally, Linux commands are entered after the shell-prompt is displayed. The shell prompt is denoted by the '$' symbol.",
+        "hi": "आम तौर पर, शेल-प्रॉम्ट प्रदर्शित होने के बाद लिनक्स कमांड दर्ज किए जाते हैं। शेल प्रॉम्ट को '$' चिह्न द्वारा दर्शाया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "The $ symbol represents the standard user shell prompt in Linux.",
+        "hi": "लिनक्स में $ प्रतीक सामान्य उपयोगकर्ता शेल प्रॉम्ट को दर्शाता है।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "What are the standard (default) input and standard (default) output devices in Linux redirection?",
+        "hi": "लिनक्स रीडायरेक्शन में मानक (डिफ़ॉल्ट) इनपुट और मानक (डिफ़ॉल्ट) आउटपुट डिवाइस क्या हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "Mouse and Printer",
+          "hi": "माउस और प्रिंटर"
+        },
+        "b": {
+          "en": "Keyboard and Monitor",
+          "hi": "कीबोर्ड और मॉनिटर"
+        },
+        "c": {
+          "en": "Hard Drive and RAM",
+          "hi": "हार्ड ड्राइव और रैम"
+        },
+        "d": {
+          "en": "Scanner and Speaker",
+          "hi": "स्कैनर और स्पीकर"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "They are the primary hardware interfaces used to type commands and view output.",
+        "hi": "ये वे प्राथमिक हार्डवेयर इंटरफेस हैं जिनका उपयोग कमांड टाइप करने और आउटपुट देखने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "As per the document, the standard (default) input is the keyboard, and the standard (default) output is the monitor.",
+        "hi": "दस्तावेज़ के अनुसार, मानक (डिफ़ॉल्ट) इनपुट कीबोर्ड है, और मानक (डिफ़ॉल्ट) आउटपुट मॉनिटर है।"
+      },
+      "key_takeaway": {
+        "en": "Redirection allows changing the default stream pathways from the keyboard and monitor to files.",
+        "hi": "रीडायरेक्शन कीबोर्ड और मॉनिटर के बजाय फ़ाइलों में डिफ़ॉल्ट स्ट्रीम पथ बदलने की अनुमति देता है।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "Which command is used to create a new directory in Linux?",
+        "hi": "लिनक्स में एक नई निर्देशिका (directory) बनाने के लिए किस कमांड का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "rmdir",
+          "hi": "rmdir"
+        },
+        "b": {
+          "en": "mkdir",
+          "hi": "mkdir"
+        },
+        "c": {
+          "en": "cd",
+          "hi": "cd"
+        },
+        "d": {
+          "en": "cp",
+          "hi": "cp"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The name of this command is short for 'make directory'.",
+        "hi": "इस कमांड का नाम 'मेक डायरेक्टरी' (make directory) का संक्षिप्त रूप है।"
+      },
+      "explanation": {
+        "en": "The 'mkdir' command is used to make a new directory with a given name (e.g., '$ mkdir my_school').",
+        "hi": "'mkdir' कमांड का उपयोग दिए गए नाम के साथ एक नई डायरेक्टरी बनाने के लिए किया जाता है (जैसे, '$ mkdir my_school')।"
+      },
+      "key_takeaway": {
+        "en": "The mkdir command is essential for organizing files inside new directories.",
+        "hi": "नई निर्देशिकाओं के भीतर फाइलों को व्यवस्थित करने के लिए mkdir कमांड आवश्यक है।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Which editor is the default text editor in Linux?",
+        "hi": "लिनक्स में कौन सा एडिटर डिफ़ॉल्ट टेक्स्ट एडिटर होता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Nano Editor",
+          "hi": "नैनो एडिटर"
+        },
+        "b": {
+          "en": "Vi Editor",
+          "hi": "वीआई (Vi) एडिटर"
+        },
+        "c": {
+          "en": "Emacs Editor",
+          "hi": "इमैक्स एडिटर"
+        },
+        "d": {
+          "en": "Gedit Editor",
+          "hi": "जीएडिट एडिटर"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Its name stands for 'Visual Editor'.",
+        "hi": "इसके नाम का अर्थ 'विजुअल एडिटर' (Visual Editor) है।"
+      },
+      "explanation": {
+        "en": "The Vi editor stands for Visual editor, and it is the default text editor in Linux, used to create and edit text files.",
+        "hi": "Vi एडिटर का अर्थ विजुअल एडिटर है, और यह लिनक्स में डिफ़ॉल्ट टेक्स्ट एडिटर है जिसका उपयोग टेक्स्ट फाइलें बनाने और संपादित करने के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Vi is a powerful, ubiquitous command-line visual text editor in Linux.",
+        "hi": "Vi लिनक्स में एक शक्तिशाली और व्यापक रूप से उपलब्ध रहने वाला कमांड-लाइन विजुअल टेक्स्ट एडिटर है।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "In which year was the Indian Information Technology Act (IT Act) passed?",
+        "hi": "भारतीय सूचना प्रौद्योगिकी अधिनियम (IT Act) किस वर्ष पारित किया गया था?"
+      },
+      "options": {
+        "a": {
+          "en": "1998",
+          "hi": "1998"
+        },
+        "b": {
+          "en": "2000",
+          "hi": "2000"
+        },
+        "c": {
+          "en": "2005",
+          "hi": "2005"
+        },
+        "d": {
+          "en": "2008",
+          "hi": "2008"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It marks the start of the new millennium.",
+        "hi": "यह नई सहस्राब्दी की शुरुआत का वर्ष है।"
+      },
+      "explanation": {
+        "en": "The Indian Cyber Laws are contained in the 'Information Technology Act, 2000' (IT Act), which was later amended in 2008.",
+        "hi": "भारतीय साइबर कानून 'सूचना प्रौद्योगिकी अधिनियम, 2000' (आईटी अधिनियम) में निहित हैं, जिसे बाद में 2008 में संशोधित किया गया था।"
+      },
+      "key_takeaway": {
+        "en": "The IT Act, 2000 is the primary legal framework governing cyber activities and electronics transactions in India.",
+        "hi": "आईटी अधिनियम, 2000 भारत में साइबर गतिविधियों और इलेक्ट्रॉनिक लेनदेन को विनियमित करने वाला प्राथमिक कानूनी ढांचा है।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "What type of cybercrime involves sending deceptive emails or creating fake websites to trick individuals into providing sensitive information?",
+        "hi": "किस प्रकार के साइबर अपराध में भ्रामक ईमेल भेजना या नकली वेबसाइट बनाना शामिल है ताकि लोगों को संवेदनशील जानकारी प्रदान करने के लिए बरगलाया जा सके?"
+      },
+      "options": {
+        "a": {
+          "en": "Hacking",
+          "hi": "हैकिंग"
+        },
+        "b": {
+          "en": "Phishing",
+          "hi": "फ़िशिंग"
+        },
+        "c": {
+          "en": "Cyberbullying",
+          "hi": "साइबरबुलिंग"
+        },
+        "d": {
+          "en": "Identity Theft",
+          "hi": "पहचान की चोरी"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The term sounds like the sport of catching fish but starts with 'Ph'.",
+        "hi": "यह शब्द पानी से मछली पकड़ने के खेल (fishing) जैसा सुनाई देता है, लेकिन इसकी शुरुआत 'Ph' से होती है।"
+      },
+      "explanation": {
+        "en": "Phishing means when a fraudulent user tricks individuals into providing sensitive information, such as login credentials or financial details, by sending deceptive emails or creating fake websites.",
+        "hi": "फ़िशिंग का अर्थ है जब कोई धोखेबाज़ उपयोगकर्ता भ्रामक ईमेल भेजकर या नकली वेबसाइट बनाकर लोगों को उनकी संवेदनशील जानकारी, जैसे लॉगिन क्रेडेंशियल या वित्तीय विवरण प्रदान करने के लिए बरगलाता है।"
+      },
+      "key_takeaway": {
+        "en": "Phishing relies on social engineering to steal critical credentials.",
+        "hi": "फ़िशिंग महत्वपूर्ण क्रेडेंशियल चुराने के लिए सोशल इंजीनियरिंग पर निर्भर करती है।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "What is the key technological difference between a Hub and a Switch as networking devices?",
+        "hi": "नेटवर्किंग डिवाइस के रूप में हब (Hub) और स्विच (Switch) के बीच मुख्य तकनीकी अंतर क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "Hub connects wireless devices, while Switch only connects wired devices.",
+          "hi": "हब वायरलेस उपकरणों को जोड़ता है, जबकि स्विच केवल वायर्ड उपकरणों को जोड़ता है।"
+        },
+        "b": {
+          "en": "Hub uses broadcasting technology, while Switch uses direct connection technology.",
+          "hi": "हब ब्रॉडकास्टिंग तकनीक का उपयोग करता है, जबकि स्विच डायरेक्ट कनेक्शन तकनीक का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Hub is highly secure and fast, while Switch is less secure and slow.",
+          "hi": "हब अत्यधिक सुरक्षित और तेज़ है, जबकि स्विच कम सुरक्षित और धीमा है।"
+        },
+        "d": {
+          "en": "Hub connects different networks together, while Switch connects a network to the Internet.",
+          "hi": "हब विभिन्न नेटवर्कों को एक साथ जोड़ता है, जबकि स्विच एक नेटवर्क को इंटरनेट से जोड़ता है।"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "One of them sends data to everyone on the network (broadcasting), making it slower and less secure.",
+        "hi": "उनमें से एक नेटवर्क पर सभी को डेटा भेजता है (ब्रॉडकास्टिंग), जिससे यह धीमा और कम सुरक्षित हो जाता है।"
+      },
+      "explanation": {
+        "en": "The document states that Hub uses broadcasting technology which is less secure and slow, whereas Switch uses direct connection technology which is more secure and fast.",
+        "hi": "दस्तावेज़ में उल्लेख है कि हब ब्रॉडकास्टिंग (प्रसारण) तकनीक का उपयोग करता है जो कम सुरक्षित और धीमी है, जबकि स्विच डायरेक्ट कनेक्शन तकनीक का उपयोग करता है जो अधिक सुरक्षित और तेज़ है।"
+      },
+      "key_takeaway": {
+        "en": "Switches are more efficient and secure than hubs due to point-to-point (direct) packet delivery.",
+        "hi": "पॉइंट-टू-पॉइंट (डायरेक्ट) पैकेट डिलीवरी के कारण स्विच, हब की तुलना में अधिक कुशल और सुरक्षित होते हैं।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "Which of the following is correct regarding Class C IP addresses?",
+        "hi": "क्लास सी (Class C) आईपी पते के संबंध में निम्नलिखित में से कौन सा सही है?"
+      },
+      "options": {
+        "a": {
+          "en": "First bits: 10; Subnet Mask: 255.255.0.0",
+          "hi": "प्रारंभिक बिट्स: 10; सबनेट मास्क: 255.255.0.0"
+        },
+        "b": {
+          "en": "First bits: 0; Subnet Mask: 255.0.0.0",
+          "hi": "प्रारंभिक बिट्स: 0; सबनेट मास्क: 255.0.0.0"
+        },
+        "c": {
+          "en": "First bits: 110; Subnet Mask: 255.255.255.0",
+          "hi": "प्रारंभिक बिट्स: 110; सबनेट मास्क: 255.255.255.0"
+        },
+        "d": {
+          "en": "First bits: 1110; Subnet Mask: undefined",
+          "hi": "प्रारंभिक बिट्स: 1110; सबनेट मास्क: अपरिभाषित"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This class is used in small-sized networks and uses the first 24 bits for the Network ID.",
+        "hi": "इस क्लास का उपयोग छोटे आकार के नेटवर्क में किया जाता है और यह नेटवर्क आईडी के लिए पहले 24 बिट्स का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "According to the IP Address Class table, Class C has first bits '110', uses the first 24 bits for Network ID (remaining 8 for Host ID), has subnet mask 255.255.255.0, and starting decimal range from 192.",
+        "hi": "आईपी एड्रेस क्लास टेबल के अनुसार, क्लास सी में पहले बिट्स '110' होते हैं, नेटवर्क आईडी के लिए पहले 24 बिट्स का उपयोग किया जाता है (होस्ट आईडी के लिए शेष 8), इसका सबनेट मास्क 255.255.255.0 है, और दशमलव रेंज 192 से शुरू होती है।"
+      },
+      "key_takeaway": {
+        "en": "Class C IP addresses support up to 254 hosts per network and are meant for smaller networks.",
+        "hi": "क्लास सी आईपी पते प्रति नेटवर्क 254 होस्ट तक का समर्थन करते हैं और छोटे नेटवर्क के लिए अभिप्रेत हैं।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "Which main component of Linux is known as the 'heart' of the operating system and directly interacts with the hardware?",
+        "hi": "लिनक्स के किस मुख्य घटक को ऑपरेटिंग सिस्टम का 'दिल' कहा जाता है और यह सीधे हार्डवेयर के साथ इंटरैक्ट करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Shell",
+          "hi": "शेल"
+        },
+        "b": {
+          "en": "Kernel",
+          "hi": "कर्नेल"
+        },
+        "c": {
+          "en": "Applications",
+          "hi": "एप्लीकेशन्स"
+        },
+        "d": {
+          "en": "GUI",
+          "hi": "जीयूआई"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It manages memory, storage, processor, and I/O devices directly.",
+        "hi": "यह मेमोरी, स्टोरेज, प्रोसेसर और आई/ओ उपकरणों का सीधे प्रबंधन करता है।"
+      },
+      "explanation": {
+        "en": "The Linux Kernel is the main component of Linux and is called the 'heart of the Linux'. It directly interacts with the hardware and provides the foundation for all other software.",
+        "hi": "लिनक्स कर्नेल लिनक्स का मुख्य घटक है और इसे 'लिनक्स का दिल' (heart of the Linux) कहा जाता है। यह सीधे हार्डवेयर के साथ इंटरैक्ट करता है और अन्य सभी सॉफ्टवेयर के लिए आधार प्रदान करता है।"
+      },
+      "key_takeaway": {
+        "en": "The Kernel is the core system layer managing resource allocation and hardware communication.",
+        "hi": "कर्नेल मुख्य सिस्टम लेयर है जो संसाधन आवंटन और हार्डवेयर संचार का प्रबंधन करती है।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "Which Linux shell is an improved version of the C-Shell and features additional abilities like inline command editing and command history?",
+        "hi": "कौन सा लिनक्स शेल सी-शेल (C-Shell) का एक उन्नत संस्करण है और इसमें इनलाइन कमांड एडिटिंग और कमांड हिस्ट्री जैसी अतिरिक्त क्षमताएं हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "Bourne Shell",
+          "hi": "बॉर्न शेल"
+        },
+        "b": {
+          "en": "Korn Shell",
+          "hi": "कॉर्न शेल"
+        },
+        "c": {
+          "en": "TC-Shell",
+          "hi": "टीसी-शेल (TC-Shell)"
+        },
+        "d": {
+          "en": "Bourne Again Shell",
+          "hi": "बॉर्न अगेन शेल"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is also known as 'tcsh'.",
+        "hi": "इसे 'tcsh' के नाम से भी जाना जाता है।"
+      },
+      "explanation": {
+        "en": "The TC-Shell (tcsh) is an improved version of the C-Shell. It has additional abilities like inline command editing and command history.",
+        "hi": "टीसी-शेल (tcsh) सी-शेल का एक उन्नत संस्करण है। इसमें इनलाइन कमांड एडिटिंग और कमांड हिस्ट्री जैसी अतिरिक्त क्षमताएं होती हैं।"
+      },
+      "key_takeaway": {
+        "en": "The tcsh shell enhances standard C-shell features with command-line usability improvements.",
+        "hi": "tcsh शेल कमांड-लाइन उपयोगिता में सुधार के साथ मानक सी-शेल की सुविधाओं को बढ़ाता है।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "According to the Class and IP range specifications in the document, how many maximum networks and hosts does Class B support?",
+        "hi": "दस्तावेज़ में दिए गए क्लास और आईपी रेंज विनिर्देशों के अनुसार, क्लास बी (Class B) अधिकतम कितने नेटवर्क और होस्ट का समर्थन करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "128 Networks and 1,67,77,216 hosts",
+          "hi": "128 नेटवर्क और 1,67,77,216 होस्ट"
+        },
+        "b": {
+          "en": "16,384 Networks and 65,536 hosts",
+          "hi": "16,384 नेटवर्क और 65,536 होस्ट"
+        },
+        "c": {
+          "en": "20,97,152 Networks and 254 hosts",
+          "hi": "20,97,152 नेटवर्क और 254 होस्ट"
+        },
+        "d": {
+          "en": "16,384 Networks and 254 hosts",
+          "hi": "16,384 नेटवर्क और 254 होस्ट"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Class B uses 16 bits for Network ID and 16 bits for Host ID.",
+        "hi": "क्लास बी नेटवर्क आईडी के लिए 16 बिट्स और होस्ट आईडी के लिए 16 बिट्स का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "According to the IP Address Class table, Class B supports exactly 16,384 Networks and 65,536 hosts.",
+        "hi": "आईपी एड्रेस क्लास टेबल के अनुसार, क्लास बी ठीक 16,384 नेटवर्क और 65,536 होस्ट का समर्थन करता है।"
+      },
+      "key_takeaway": {
+        "en": "Class B is designed for medium-sized networks with up to 65,536 unique host addresses.",
+        "hi": "क्लास बी को मध्यम आकार के नेटवर्क के लिए डिज़ाइन किया गया है जिसमें अधिकतम 65,536 विशिष्ट होस्ट पते हो सकते हैं।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "In Linux, what is the exact function of the pipeline symbol '|'?",
+        "hi": "लिनक्स में, पाइपलाइन प्रतीक '|' का सटीक कार्य क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "It redirects command output directly to a physical printer.",
+          "hi": "यह कमांड आउटपुट को सीधे एक भौतिक प्रिंटर पर रीडायरेक्ट करता है।"
+        },
+        "b": {
+          "en": "It compares the text content of two files and displays differences.",
+          "hi": "यह दो फाइलों की टेक्स्ट सामग्री की तुलना करता है और अंतर प्रदर्शित करता है।"
+        },
+        "c": {
+          "en": "It connects the output of one command as the input of another command.",
+          "hi": "यह एक कमांड के आउटपुट को दूसरे कमांड के इनपुट के रूप में जोड़ता है।"
+        },
+        "d": {
+          "en": "It searches for specific strings or patterns within a file.",
+          "hi": "यह किसी फ़ाइल के भीतर विशिष्ट स्ट्रिंग्स या पैटर्न को खोजता है।"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "For example, in '$ ls | lpr', the output of 'ls' becomes the input to 'lpr'.",
+        "hi": "उदाहरण के लिए, '$ ls | lpr' में, 'ls' का आउटपुट 'lpr' का इनपुट बन जाता है।"
+      },
+      "explanation": {
+        "en": "A pipeline is a feature used to connect the output of one command as the input of another. The pipeline symbol, '|' is used to combine two or more commands.",
+        "hi": "पाइपलाइन एक ऐसी सुविधा है जिसका उपयोग एक कमांड के आउटपुट को दूसरे कमांड के इनपुट के रूप में जोड़ने के लिए किया जाता है। पाइपलाइन चिह्न '|' का उपयोग दो या दो से अधिक कमांड को संयोजित करने के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Pipelining enables the chaining of simple commands to perform complex data processing tasks.",
+        "hi": "पाइपलाइनिंग जटिल डेटा प्रोसेसिंग कार्यों को करने के लिए सरल कमांडों को जोड़ने में सक्षम बनाती है।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "Which set of keys is used in the command mode of the Vi editor to move the cursor left, down, up, and right respectively?",
+        "hi": "कर्सर को क्रमशः बाएं, नीचे, ऊपर और दाएं ले जाने के लिए Vi एडिटर के कमांड मोड में कुंजियों (keys) के किस सेट का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "a, s, d, w",
+          "hi": "a, s, d, w"
+        },
+        "b": {
+          "en": "h, j, k, l",
+          "hi": "h, j, k, l"
+        },
+        "c": {
+          "en": "i, o, p, q",
+          "hi": "i, o, p, q"
+        },
+        "d": {
+          "en": "x, y, z, c",
+          "hi": "x, y, z, c"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "These four consecutive keys on a standard QWERTY keyboard are used for navigation.",
+        "hi": "एक मानक QWERTY कीबोर्ड पर लगातार आने वाली ये चार कुंजियाँ नेविगेशन के लिए उपयोग की जाती हैं।"
+      },
+      "explanation": {
+        "en": "In Vi editor command mode, 'h, j, k, l' keys are used to move the cursor left, down, up, or right, respectively.",
+        "hi": "Vi एडिटर कमांड मोड में, कर्सर को क्रमशः बाएं, नीचे, ऊपर या दाएं ले जाने के लिए 'h, j, k, l' कुंजियों का उपयोग किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Vi uses standard home row character keys for basic navigation to keep fingers on the home row.",
+        "hi": "Vi बुनियादी नेविगेशन के लिए मानक होम रो कैरेक्टर कुंजियों का उपयोग करता है ताकि उंगलियां होम रो पर ही रहें।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "Under the Filesystem Hierarchy Standard (FHS), which directory contains system and application configuration files?",
+        "hi": "फाइलसिस्टम हायरार्की स्टैंडर्ड (FHS) के तहत, किस निर्देशिका (directory) में सिस्टम और एप्लिकेशन कॉन्फ़िगरेशन फ़ाइलें होती हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "/bin",
+          "hi": "/bin"
+        },
+        "b": {
+          "en": "/dev",
+          "hi": "/dev"
+        },
+        "c": {
+          "en": "/etc",
+          "hi": "/etc"
+        },
+        "d": {
+          "en": "/boot",
+          "hi": "/boot"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Its name sounds like 'etcetera'.",
+        "hi": "इसका नाम 'एक्सेट्रा' (etcetera) जैसा लगता है।"
+      },
+      "explanation": {
+        "en": "According to the Filesystem Hierarchy Standard outlined in the document, the '/etc' directory contains configuration files for the system and various applications.",
+        "hi": "दस्तावेज़ में उल्लिखित फाइलसिस्टम हायरार्की स्टैंडर्ड के अनुसार, '/etc' डायरेक्टरी में सिस्टम और विभिन्न एप्लिकेशनों के लिए कॉन्फ़िगरेशन फ़ाइलें होती हैं।"
+      },
+      "key_takeaway": {
+        "en": "The /etc directory is the central location for administrative and configuration files in Linux.",
+        "hi": "लिनक्स में प्रशासनिक और कॉन्फ़िगरेशन फ़ाइलों के लिए /etc डायरेक्टरी केंद्रीय स्थान है।"
+      }
+    }
+  ]
+}
