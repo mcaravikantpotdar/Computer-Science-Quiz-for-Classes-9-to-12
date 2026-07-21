@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Generator Portal (Direct Connection)</title>
+    <title>Quiz Generator Portal</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f1f5f9; color: #1e293b; min-height: 100vh; padding: 40px 20px; }
@@ -14,54 +14,52 @@
         .form-group { margin-bottom: 18px; }
         label { display: block; font-size: 11px; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
         select, input[type="text"], input[type="number"], input[type="file"] { width: 100%; padding: 11px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 14px; color: #334155; background: #f8fafc; transition: all 0.2s; outline: none; }
-        select:focus, input:focus { border-color: #2563eb; background: #ffffff; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
         .divider { display: flex; align-items: center; text-align: center; margin: 8px 0; color: #94a3b8; font-size: 10px; font-weight: 700; text-transform: uppercase; }
         .divider::before, .divider::after { content: ''; flex: 1; border-bottom: 1px dashed #cbd5e1; }
         .divider span { padding: 0 8px; }
         .btn-submit { width: 100%; background: #2563eb; color: #ffffff; border: none; padding: 14px; border-radius: 8px; font-size: 15px; font-weight: 700; cursor: pointer; transition: all 0.2s; margin-top: 10px; }
-        .btn-submit:disabled { background: #94a3b8; cursor: not-allowed; }
-        .status-msg { margin-top: 16px; padding: 12px; border-radius: 8px; font-size: 13px; text-align: center; display: none; white-space: pre-wrap;}
+        .status-msg { margin-top: 16px; padding: 12px; border-radius: 8px; font-size: 13px; text-align: center; display: none; }
         .status-msg.info { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
-        .status-msg.success { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
-        .status-msg.error { background: #fef2f2; color: #b91c1c; border: 1px solid #fca5a5; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="header">
-        <h1>🎓 Quiz Generator (Direct Mode)</h1>
-        <p>Bypasses n8n. Generates & publishes directly from your browser.</p>
+        <h1>🎓 Quiz Generator Portal</h1>
+        <p>Extract MCQs from chapter PDFs and publish to GitHub via n8n.</p>
     </div>
 
-    <form id="quizForm">
+    <!-- Notice the URL here is strictly /webhook/ (Production), NOT /webhook-test/ -->
+    <form id="quizForm" action="https://verygood123.app.n8n.cloud/webhook/generate-quiz" method="POST" enctype="multipart/form-data">
+        
         <div class="form-group">
             <label>1. Target Class</label>
-            <select id="classSelect"><option value="">-- Scanning GitHub... --</option></select>
+            <select id="classSelect" name="existingClass"><option value="">-- Scanning GitHub Folders... --</option></select>
             <div class="divider"><span>OR CREATE NEW</span></div>
-            <input type="text" id="newClass" placeholder="e.g. Class 11" autocomplete="off">
+            <input type="text" name="newClass" placeholder="e.g. Class 11" autocomplete="off">
         </div>
 
         <div class="form-group">
             <label>2. Target Subject</label>
-            <select id="subjectSelect"><option value="">-- Scanning GitHub... --</option></select>
+            <select id="subjectSelect" name="existingSubject"><option value="">-- Scanning GitHub Folders... --</option></select>
             <div class="divider"><span>OR CREATE NEW</span></div>
-            <input type="text" id="newSubject" placeholder="e.g. Information Technology" autocomplete="off">
+            <input type="text" name="newSubject" placeholder="e.g. Information Technology" autocomplete="off">
         </div>
 
         <div class="form-group">
             <label>3. Lesson / Chapter Title</label>
-            <input type="text" id="lessonName" placeholder="e.g. HTML Basics" required autocomplete="off">
+            <input type="text" name="lessonName" placeholder="e.g. HTML Basics" required autocomplete="off">
         </div>
 
         <div class="form-group">
             <label>4. Number of Questions (10 - 40)</label>
-            <input type="number" id="qCount" value="20" min="10" max="40" required>
+            <input type="number" name="qCount" value="20" min="10" max="40" required>
         </div>
 
         <div class="form-group">
             <label>5. Upload Chapter PDF</label>
-            <input type="file" id="pdfFile" accept=".pdf" required>
+            <input type="file" name="pdfFile" accept=".pdf" required>
         </div>
 
         <button type="submit" id="submitBtn" class="btn-submit">🚀 Generate & Publish Quiz</button>
@@ -70,14 +68,9 @@
 </div>
 
 <script>
-    // HARDCODED CREDENTIALS
-    const GEMINI_KEY = 'AIzaSyCja2Op8I1bkB6izRwzp2JBoKSn6Az7Qdw';
-    const GITHUB_TOKEN = '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';
-    
     const REPO_OWNER = 'mcaravikantpotdar';
     const REPO_NAME = 'Computer-Science-Quiz-for-Classes-9-to-12';
-
-    // 1. Load Dropdowns
+    
     fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/main?recursive=1`)
         .then(res => res.json())
         .then(data => {
@@ -93,107 +86,16 @@
             }
             document.getElementById('classSelect').innerHTML = '<option value="">-- Select Existing Class --</option>' + Array.from(classes).sort().map(c => `<option value="${c}">${c}</option>`).join('');
             document.getElementById('subjectSelect').innerHTML = '<option value="">-- Select Existing Subject --</option>' + Array.from(subjects).sort().map(s => `<option value="${s}">${s}</option>`).join('');
-        }).catch(() => {
-            document.getElementById('classSelect').innerHTML = '<option value="">-- Error loading --</option>';
-            document.getElementById('subjectSelect').innerHTML = '<option value="">-- Error loading --</option>';
         });
 
-    function showStatus(msg, type) {
-        const el = document.getElementById('status');
-        el.style.display = 'block';
-        el.className = 'status-msg ' + type;
-        el.innerText = msg;
-    }
-
-    // Safe base64 encoding for Unicode/Hindi characters to GitHub
-    function utf8ToBase64(str) {
-        return btoa(unescape(encodeURIComponent(str)));
-    }
-
-    // 2. Main Generation Process
-    document.getElementById('quizForm').addEventListener('submit', async function(e) {
-        e.preventDefault();
+    document.getElementById('quizForm').addEventListener('submit', function() {
         const btn = document.getElementById('submitBtn');
+        const status = document.getElementById('status');
         btn.disabled = true;
-
-        try {
-            const rClass = (document.getElementById('newClass').value || document.getElementById('classSelect').value || 'Class 10').trim();
-            const rSubject = (document.getElementById('newSubject').value || document.getElementById('subjectSelect').value || 'Computer Science').trim();
-            const rLesson = document.getElementById('lessonName').value.trim();
-            const qCount = document.getElementById('qCount').value;
-            const file = document.getElementById('pdfFile').files[0];
-
-            const clean = (str) => str.replace(/[^a-zA-Z0-9 _-]/g, '').replace(/\s+/g, '_');
-            const filePath = `jsons/${clean(rClass)}/${clean(rSubject)}/${clean(rLesson)}.json`;
-
-            showStatus('⏳ Reading PDF file...', 'info');
-            
-            const reader = new FileReader();
-            reader.readAsDataURL(file);
-            reader.onload = async function() {
-                const base64Pdf = reader.result.split(',')[1];
-
-                showStatus('🧠 Sending to Gemini AI. This takes 20-30 seconds...', 'info');
-
-                const prompt = `You are an expert NCERT/CBSE Computer Science test generator. Generate exactly ${qCount} high-quality bilingual (English and Hindi) MCQs based ONLY on the attached PDF document. Output raw JSON ONLY.
-{
-  "metadata": { "chapter_title": "${rLesson}", "class": "${rClass}", "subject": "${rSubject}" },
-  "questions": [
-    {
-      "question_id": 1,
-      "question": { "en": "English question?", "hi": "हिंदी प्रश्न?" },
-      "options": { "a": {"en":"A","hi":"A"}, "b": {"en":"B","hi":"B"}, "c": {"en":"C","hi":"C"}, "d": {"en":"D","hi":"D"} },
-      "correct_option": "a",
-      "hint": { "en": "Hint", "hi": "संकेत" },
-      "explanation": { "en": "Explanation", "hi": "व्याख्या" },
-      "key_takeaway": { "en": "Takeaway", "hi": "सीख" }
-    }
-  ]
-}`;
-
-                // Call Gemini
-                const geminiRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_KEY}`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        contents: [{ parts: [{ text: prompt }, { inline_data: { mime_type: "application/pdf", data: base64Pdf } }] }],
-                        generationConfig: { response_mime_type: "application/json" }
-                    })
-                });
-
-                if (!geminiRes.ok) throw new Error('Gemini API Error: ' + geminiRes.statusText);
-                const geminiData = await geminiRes.json();
-                let jsonText = geminiData.candidates[0].content.parts[0].text;
-                jsonText = jsonText.replace(/```json/g, '').replace(/```/g, '').trim();
-
-                showStatus('✅ Quiz Generated! Publishing directly to GitHub...', 'info');
-
-                // Call GitHub
-                const githubRes = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}`, {
-                    method: 'PUT',
-                    headers: {
-                        'Authorization': `Bearer ${GITHUB_TOKEN}`,
-                        'Content-Type': 'application/json',
-                        'User-Agent': 'Quiz-App'
-                    },
-                    body: JSON.stringify({
-                        message: `Auto-add quiz: ${rLesson}`,
-                        content: utf8ToBase64(jsonText)
-                    })
-                });
-
-                if (!githubRes.ok) throw new Error('GitHub API Error: ' + githubRes.statusText);
-
-                showStatus(`🎉 Success! Quiz published directly to GitHub.\nPath: ${filePath}`, 'success');
-                btn.disabled = false;
-                btn.innerText = '🚀 Generate Another Quiz';
-            };
-            
-        } catch (err) {
-            showStatus(`❌ Error: ${err.message}`, 'error');
-            btn.disabled = false;
-            btn.innerText = '🚀 Try Again';
-        }
+        btn.innerText = '⏳ Processing PDF & Publishing via n8n...';
+        status.className = 'status-msg info';
+        status.style.display = 'block';
+        status.innerText = 'Sending to n8n securely. Please wait...';
     });
 </script>
 
