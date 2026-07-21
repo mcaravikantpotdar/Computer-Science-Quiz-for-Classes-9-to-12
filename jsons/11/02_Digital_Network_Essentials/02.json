@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "chapter_title": "Digital Network Essentials",
+    "class": "11",
+    "subject": "Computer Science"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "\"Internet\" is the abbreviation for which of the following terms?",
+        "hi": "\"इंटरनेट\" निम्नलिखित में से किस शब्द का संक्षिप्त रूप है?"
+      },
+      "options": {
+        "a": {
+          "en": "INTERnational NETwork",
+          "hi": "इंटरनेशनल नेटवर्क"
+        },
+        "b": {
+          "en": "Interconnected Network",
+          "hi": "इंटरकनेक्टेड नेटवर्क"
+        },
+        "c": {
+          "en": "Internal Network",
+          "hi": "इंटरनल नेटवर्क"
+        },
+        "d": {
+          "en": "Intel Network",
+          "hi": "इंटेल नेटवर्क"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It is a short form of International Network.",
+        "hi": "यह 'इंटरनेशनल नेटवर्क' का छोटा रूप है।"
+      },
+      "explanation": {
+        "en": "According to the text, \"Internet\" is the abbreviation for \"INTERnational NETwork\" and is also referred to as the \"Net\".",
+        "hi": "पाठ के अनुसार, \"इंटरनेट\" शब्द \"इंटरनेशनल नेटवर्क\" (INTERnational NETwork) का संक्षिप्त रूप है और इसे \"नेट\" भी कहा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "The word Internet is derived from International Network.",
+        "hi": "इंटरनेट शब्द इंटरनेशनल नेटवर्क से बना है।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "When was ARPAnet first started in the USA?",
+        "hi": "संयुक्त राज्य अमेरिका में ARPAnet की शुरुआत पहली बार कब हुई थी?"
+      },
+      "options": {
+        "a": {
+          "en": "October, 1969",
+          "hi": "अक्टूबर, 1969"
+        },
+        "b": {
+          "en": "October, 1990",
+          "hi": "अक्टूबर, 1990"
+        },
+        "c": {
+          "en": "October, 1985",
+          "hi": "अक्टूबर, 1985"
+        },
+        "d": {
+          "en": "October, 1975",
+          "hi": "अक्टूबर, 1975"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It was started in the late 1960s by the Advanced Research Projects Agency.",
+        "hi": "इसकी शुरुआत 1960 के दशक के अंत में एडवांस्ड रिसर्च प्रोजेक्ट्स एजेंसी द्वारा की गई थी।"
+      },
+      "explanation": {
+        "en": "The Internet was developed by the Advanced Research Projects Agency of Department of Defence in the USA. It was first started in October, 1969 and was named ARPAnet.",
+        "hi": "संयुक्त राज्य अमेरिका में रक्षा विभाग की उन्नत अनुसंधान परियोजना एजेंसी (Advanced Research Projects Agency) द्वारा इंटरनेट का विकास किया गया था। इसे पहली बार अक्टूबर, 1969 में शुरू किया गया था और इसका नाम ARPAnet रखा गया था।"
+      },
+      "key_takeaway": {
+        "en": "ARPAnet, launched in October 1969, is considered the early form of the Internet.",
+        "hi": "अक्टूबर 1969 में शुरू किया गया ARPAnet इंटरनेट का प्रारंभिक रूप माना जाता है।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Who created the \"World-wide-web\" (WWW) in 1990 at CERN in Switzerland?",
+        "hi": "1990 में स्विट्जरलैंड में CERN में \"वर्ल्ड-वाइड-वेब\" (WWW) का निर्माण किसने किया था?"
+      },
+      "options": {
+        "a": {
+          "en": "Tim Berners Lee",
+          "hi": "टिम बर्नर्स ली"
+        },
+        "b": {
+          "en": "Alan Turing",
+          "hi": "एलन ट्यूरिंग"
+        },
+        "c": {
+          "en": "Charles Babbage",
+          "hi": "चार्ल्स बैबेज"
+        },
+        "d": {
+          "en": "Vint Cerf",
+          "hi": "विंट सर्फ"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "He is a British scientist who created the WWW at CERN.",
+        "hi": "वह एक ब्रिटिश वैज्ञानिक हैं जिन्होंने CERN में WWW का निर्माण किया था।"
+      },
+      "explanation": {
+        "en": "The \"World-wide-web\" (WWW) was created at CERN in Switzerland in the year 1990 by a British man named \"Tim Berners Lee\".",
+        "hi": "\"वर्ल्ड-वाइड-वेब\" (WWW) का निर्माण स्विट्जरलैंड में CERN में वर्ष 1990 में \"टिम बर्नर्स ली\" नामक एक ब्रिटिश व्यक्ति द्वारा किया गया था।"
+      },
+      "key_takeaway": {
+        "en": "Tim Berners Lee invented the World Wide Web in 1990.",
+        "hi": "टिम बर्नर्स ली ने 1990 में वर्ल्ड वाइड वेब का आविष्कार किया था।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "Which of the following is classified as a search engine, and NOT a web browser, according to the text?",
+        "hi": "पाठ के अनुसार निम्नलिखित में से किसे सर्च इंजन के रूप में वर्गीकृत किया गया है, न कि वेब ब्राउज़र के रूप में?"
+      },
+      "options": {
+        "a": {
+          "en": "Bing",
+          "hi": "बिंग"
+        },
+        "b": {
+          "en": "Google Chrome",
+          "hi": "गूगल क्रोम"
+        },
+        "c": {
+          "en": "Mozilla Firefox",
+          "hi": "मोज़िला फ़ायरफ़ॉक्स"
+        },
+        "d": {
+          "en": "Microsoft Edge",
+          "hi": "माइक्रोसॉफ्ट एज"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Google Chrome, Firefox, and Edge are browsers, while Bing is listed under search engines.",
+        "hi": "गूगल क्रोम, फ़ायरफ़ॉक्स और एज ब्राउज़र हैं, जबकि बिंग सर्च इंजन के अंतर्गत सूचीबद्ध है।"
+      },
+      "explanation": {
+        "en": "The text lists Google Chrome, Microsoft Edge, Mozilla Firefox, Opera, and UC Browser as web browsers. Bing is listed as a search engine, along with Google, Yahoo, and Ask.",
+        "hi": "पाठ में गूगल क्रोम, माइक्रोसॉफ्ट एज, मोज़िला फ़ायरफ़ॉक्स, ओपेरा और यूसी ब्राउज़र को वेब-ब्राउज़र के रूप में सूचीबद्ध किया गया है। बिंग को गूगल, याहू और आस्क के साथ एक सर्च इंजन के रूप में सूचीबद्ध किया गया है।"
+      },
+      "key_takeaway": {
+        "en": "Web browsers display information from the WWW, while search engines help search for keywords on the internet.",
+        "hi": "वेब ब्राउज़र WWW से जानकारी प्रदर्शित करते हैं, जबकि सर्च इंजन इंटरनेट पर कीवर्ड खोजने में मदद करते हैं।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "What are the three basic components of data communication as mentioned in the text?",
+        "hi": "पाठ में उल्लिखित डेटा संचार के तीन बुनियादी घटक कौन से हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "Sender, medium and receiver",
+          "hi": "प्रेषक, माध्यम और रिसीवर"
+        },
+        "b": {
+          "en": "Client, server and router",
+          "hi": "क्लाइंट, सर्वर और राउटर"
+        },
+        "c": {
+          "en": "Cable, wireless and satellite",
+          "hi": "केबल, वायरलेस और सैटेलाइट"
+        },
+        "d": {
+          "en": "Internet, browser and search engine",
+          "hi": "इंटरनेट, ब्राउज़र और सर्च इंजन"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "These represent the source, path, and destination of data transfer.",
+        "hi": "ये डेटा ट्रांसफर के स्रोत, मार्ग और गंतव्य का प्रतिनिधित्व करते हैं।"
+      },
+      "explanation": {
+        "en": "The text states that there are three basic components of data communication: Sender (the device that sends the data), medium (the path through which data is transmitted), and receiver (the device that receives the data).",
+        "hi": "पाठ में स्पष्ट किया गया है कि डेटा संचार के तीन बुनियादी घटक हैं: प्रेषक (डेटा भेजने वाला उपकरण), माध्यम (वह मार्ग जिससे डेटा प्रसारित होता है), और रिसीवर (डेटा प्राप्त करने वाला उपकरण)।"
+      },
+      "key_takeaway": {
+        "en": "Data communication requires a sender, a receiver, and a transmission medium to flow successfully.",
+        "hi": "डेटा संचार को सफलतापूर्वक प्रवाहित करने के लिए एक प्रेषक, एक रिसीवर और एक ट्रांसमिशन माध्यम की आवश्यकता होती है।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "What is the full form of LAN?",
+        "hi": "LAN का पूर्ण रूप क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "Local Area Network",
+          "hi": "लोकल एरिया नेटवर्क"
+        },
+        "b": {
+          "en": "Long Area Network",
+          "hi": "लॉन्ग एरिया नेटवर्क"
+        },
+        "c": {
+          "en": "Logical Area Network",
+          "hi": "लॉजिकल एरिया नेटवर्क"
+        },
+        "d": {
+          "en": "Link Area Network",
+          "hi": "लिंक एरिया नेटवर्क"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It is a network confined to a small geographical area like a home or office.",
+        "hi": "यह घर या कार्यालय जैसे छोटे भौगोलिक क्षेत्र तक सीमित एक नेटवर्क है।"
+      },
+      "explanation": {
+        "en": "LAN stands for Local Area Network. It is a computer network that connects devices in a small geographical area such as a home, office, or school building.",
+        "hi": "LAN का मतलब लोकल एरिया नेटवर्क (Local Area Network) है। यह एक कंप्यूटर नेटवर्क है जो घर, कार्यालय या स्कूल भवन जैसे छोटे भौगोलिक क्षेत्र में उपकरणों को जोड़ता है।"
+      },
+      "key_takeaway": {
+        "en": "LAN is a private network with very high speed and low errors, used for small geographical areas.",
+        "hi": "LAN बहुत उच्च गति और कम त्रुटियों वाला एक निजी नेटवर्क है, जिसका उपयोग छोटे भौगोलिक क्षेत्रों के लिए किया जाता है।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "According to the text, what is the main difference between \"Web Surfing\" and \"Web Browsing\"?",
+        "hi": "पाठ के अनुसार, \"वेब सर्फिंग\" और \"वेब ब्राउज़िंग\" में मुख्य अंतर क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "Web surfing is done without any objective, while web browsing is done with a specific objective but without a search strategy.",
+          "hi": "वेब सर्फिंग बिना किसी उद्देश्य के की जाती है, जबकि वेब ब्राउज़िंग एक विशिष्ट उद्देश्य के साथ लेकिन बिना किसी खोज रणनीति के की जाती है।"
+        },
+        "b": {
+          "en": "Web surfing requires a search engine, while web browsing does not.",
+          "hi": "वेब सर्फिंग के लिए सर्च इंजन की आवश्यकता होती है, जबकि वेब ब्राउज़िंग के लिए नहीं।"
+        },
+        "c": {
+          "en": "Web surfing is done on wired media, while web browsing is done on wireless media.",
+          "hi": "वेब सर्फिंग वायर्ड मीडिया पर की जाती है, जबकि वेब ब्राउज़िंग वायरलेस मीडिया पर की जाती है।"
+        },
+        "d": {
+          "en": "Web browsing is always faster than web surfing.",
+          "hi": "वेब ब्राउज़िंग हमेशा वेब सर्फिंग से तेज़ होती है।"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Think about whether the user has an objective/purpose when visiting websites.",
+        "hi": "विचार करें कि क्या वेबसाइटों पर जाते समय उपयोगकर्ता का कोई उद्देश्य/प्रयोजन होता है।"
+      },
+      "explanation": {
+        "en": "The text defines Web Surfing as visiting different websites on the internet without any objective. Web Browsing means visiting different websites with some specific objective but without a search strategy.",
+        "hi": "पाठ में वेब सर्फिंग को बिना किसी उद्देश्य के इंटरनेट पर विभिन्न वेबसाइटों पर जाने के रूप में परिभाषित किया गया है। वेब ब्राउज़िंग का अर्थ विशिष्ट उद्देश्य के साथ लेकिन बिना किसी खोज रणनीति के वेबसाइटों पर जाना है।"
+      },
+      "key_takeaway": {
+        "en": "Web surfing is aimless browsing, while web browsing is purposeful but lacks a structured search strategy.",
+        "hi": "वेब सर्फिंग बिना किसी उद्देश्य के की जाती है, जबकि वेब ब्राउज़िंग उद्देश्यपूर्ण होती है लेकिन इसमें किसी संरचित खोज रणनीति का अभाव होता है।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "Which of the following wired transmission media transmits data using optical signals (light pulses)?",
+        "hi": "निम्नलिखित में से कौन सा वायर्ड ट्रांसमिशन मीडिया ऑप्टिकल सिग्नल (प्रकाश पल्स) का उपयोग करके डेटा प्रसारित करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Fibre-Optic Cable",
+          "hi": "फाइबर-ऑप्टिक केबल"
+        },
+        "b": {
+          "en": "Coaxial Cable",
+          "hi": "कोएक्सियल केबल"
+        },
+        "c": {
+          "en": "Twisted Pair Cable",
+          "hi": "ट्विस्टेड पेयर केबल"
+        },
+        "d": {
+          "en": "Telephone Cable",
+          "hi": "टेलीफोन केबल"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "This cable has thin fibres of glass or plastic.",
+        "hi": "इस केबल में कांच या प्लास्टिक के पतले रेशे होते हैं।"
+      },
+      "explanation": {
+        "en": "The text states that Fibre-Optic Cable has thin fibres of glass or plastic. It transmits data using optical signals (light pulses) and is used for long-distance, very high-speed data communication.",
+        "hi": "पाठ में कहा गया है कि फाइबर-ऑप्टिक केबल में कांच या प्लास्टिक के पतले रेशे होते हैं। यह ऑप्टिकल सिग्नल (प्रकाश पल्स) का उपयोग करके डेटा प्रसारित करता है और इसका उपयोग लंबी दूरी के बहुत उच्च गति वाले डेटा संचार के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Fibre-optic cables use light pulses (optical signals) instead of electrical signals to transmit data at very high speeds.",
+        "hi": "फाइबर-ऑप्टिक केबल बहुत तेज गति से डेटा प्रसारित करने के लिए विद्युत संकेतों के बजाय प्रकाश तरंगों (ऑप्टिकल सिग्नल) का उपयोग करते हैं।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "Which network type is characterized by low transmission speed, high transmission errors, and uses satellite communication as an unguided medium?",
+        "hi": "किस नेटवर्क प्रकार की विशेषता कम ट्रांसमिशन स्पीड, उच्च ट्रांसमिशन त्रुटियां हैं, और यह अनगाइडेड मीडिया के रूप में उपग्रह संचार का उपयोग करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "WAN (Wide Area Network)",
+          "hi": "WAN (वाइड एरिया नेटवर्क)"
+        },
+        "b": {
+          "en": "LAN (Local Area Network)",
+          "hi": "LAN (लोकल एरिया नेटवर्क)"
+        },
+        "c": {
+          "en": "MAN (Metropolitan Area Network)",
+          "hi": "MAN (मेट्रोपॉलिटन एरिया नेटवर्क)"
+        },
+        "d": {
+          "en": "PAN (Personal Area Network)",
+          "hi": "PAN (पर्सनल एरिया नेटवर्क)"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "This network connects devices in very large geographical areas such as countries and continents.",
+        "hi": "यह नेटवर्क देशों और महाद्वीपों जैसे बहुत बड़े भौगोलिक क्षेत्रों में उपकरणों को जोड़ता है।"
+      },
+      "explanation": {
+        "en": "Under WAN (Wide Area Network), the text mentions that transmission speed is low, transmission errors are high, and unguided media such as satellite communication is used.",
+        "hi": "WAN (वाइड एरिया नेटवर्क) के तहत, पाठ में उल्लेख है कि इसमें ट्रांसमिशन स्पीड कम होती है, ट्रांसमिशन त्रुटियां अधिक होती हैं, और उपग्रह संचार (satellite communication) जैसे अनगाइडेड मीडिया का उपयोग किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "WANs cover vast geographical areas and face higher latency and errors compared to LANs or MANs.",
+        "hi": "LAN या MAN की तुलना में WAN विशाल भौगोलिक क्षेत्रों को कवर करते हैं और इनमें ट्रांसमिशन त्रुटियां अधिक होती हैं।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Based on the provided text, which of the following options correctly lists both the guided and unguided media used in a Metropolitan Area Network (MAN)?",
+        "hi": "दिए गए पाठ के आधार पर, निम्नलिखित में से कौन सा विकल्प मेट्रोपॉलिटन एरिया नेटवर्क (MAN) में उपयोग किए जाने वाले सही गाइडेड और अनगाइडेड मीडिया को दर्शाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Guided: Twisted pair cable, co-axial cable, fibre-optic cable; Unguided: Microwave link",
+          "hi": "गाइडेड: ट्विस्टेड पेयर केबल, को-एक्सियल केबल, फाइबर-ऑप्टिक केबल; अनगाइडेड: माइक्रोवेव लिंक"
+        },
+        "b": {
+          "en": "Guided: Twisted pair cable; Unguided: Wifi",
+          "hi": "गाइडेड: ट्विस्टेड पेयर केबल; अनगाइडेड: वाईफाई"
+        },
+        "c": {
+          "en": "Guided: Fibre optic cable; Unguided: Satellite communication",
+          "hi": "गाइडेड: फाइबर ऑप्टिक केबल; अनगाइडेड: उपग्रह संचार"
+        },
+        "d": {
+          "en": "Guided: Coaxial cable; Unguided: Bluetooth",
+          "hi": "गाइडेड: कोएक्सियल केबल; अनगाइडेड: ब्लूटूथ"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Check the MAN section on Page 9 for both guided and unguided transmission media.",
+        "hi": "गाइडेड और अनगाइडेड दोनों ट्रांसमिशन मीडिया के लिए पृष्ठ 9 पर MAN सेक्शन देखें।"
+      },
+      "explanation": {
+        "en": "According to the MAN section in the text, guided media such as Twisted pair cable, co-axial cable, and fibre-optic cable are used in MAN, and unguided media such as Microwave link are used in MAN.",
+        "hi": "पाठ में MAN अनुभाग के अनुसार, गाइडेड मीडिया जैसे कि ट्विस्टेड जोड़ी (पेयर) केबल, सह-अक्षीय (को-एक्सियल) केबल और फाइबर-ऑप्टिक केबल का उपयोग MAN में किया जाता है, और अनगाइडेड मीडिया जैसे माइक्रोवेव लिंक का उपयोग MAN में किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "MAN uses microwave links as wireless (unguided) media, and twisted-pair, coaxial, or fiber-optic cables as wired (guided) media.",
+        "hi": "MAN वायरलेस (अनगाइडेड) मीडिया के रूप में माइक्रोवेव लिंक का उपयोग करता है, और वायर्ड (गाइडेड) मीडिया के रूप में ट्विस्टेड-पेयर, कोएक्सियल या फाइबर-ऑप्टिक केबल का उपयोग करता है।"
+      }
+    }
+  ]
+}
