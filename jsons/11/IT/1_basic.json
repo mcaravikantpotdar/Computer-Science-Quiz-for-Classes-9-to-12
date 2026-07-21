@@ -1,0 +1,769 @@
+{
+  "metadata": {
+    "chapter_title": "Unit-1 – Fundamentals of Computer",
+    "class": "11",
+    "subject": "IT"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "What does the Input Unit do to the data and instructions received from a user?",
+        "hi": "इनपुट यूनिट उपयोगकर्ता से प्राप्त डेटा और निर्देशों के साथ क्या करती है?"
+      },
+      "options": {
+        "a": {
+          "en": "Converts them from human language to binary language",
+          "hi": "इन्हें मानव भाषा से बाइनरी भाषा में बदलती है"
+        },
+        "b": {
+          "en": "Converts them from binary language to human language",
+          "hi": "इन्हें बाइनरी भाषा से मानव भाषा में बदलती है"
+        },
+        "c": {
+          "en": "Stores them permanently in secondary memory",
+          "hi": "इन्हें सेकेंडरी मेमोरी में स्थायी रूप से संग्रहीत करती है"
+        },
+        "d": {
+          "en": "Directly sends them to the printer",
+          "hi": "इन्हें सीधे प्रिंटर पर भेजती है"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Computers process binary data, so the input from humans must be translated.",
+        "hi": "कंप्यूटर बाइनरी डेटा को प्रोसेस करते हैं, इसलिए मनुष्यों से प्राप्त इनपुट का अनुवाद किया जाना चाहिए।"
+      },
+      "explanation": {
+        "en": "According to the text, the input unit changes the data and instructions from human language to binary language.",
+        "hi": "पाठ के अनुसार, इनपुट यूनिट डेटा और निर्देशों को मानव भाषा से बाइनरी भाषा में बदलती है।"
+      },
+      "key_takeaway": {
+        "en": "Input devices convert human-understandable data into binary form for computer processing.",
+        "hi": "इनपुट डिवाइस कंप्यूटर प्रोसेसिंग के लिए मानव-समझने योग्य डेटा को बाइनरी रूप में परिवर्तित करते हैं।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "Which part of the CPU is also known as the \"heart of the computer\"?",
+        "hi": "CPU के किस भाग को \"कंप्यूटर का दिल\" भी कहा जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Arithmetic & Logic Unit (ALU)",
+          "hi": "अर्थमेटिक एंड लॉजिक यूनिट (ALU)"
+        },
+        "b": {
+          "en": "Control Unit (CU)",
+          "hi": "कंट्रोल यूनिट (CU)"
+        },
+        "c": {
+          "en": "Memory Unit (MU)",
+          "hi": "मेमोरी यूनिट (MU)"
+        },
+        "d": {
+          "en": "Auxiliary Memory",
+          "hi": "ऑक्जिलरी मेमोरी"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It controls all the other units of the computer system.",
+        "hi": "यह कंप्यूटर सिस्टम की अन्य सभी इकाइयों को नियंत्रित करता है।"
+      },
+      "explanation": {
+        "en": "The text states that the CU (Control Unit) is also called the heart of the computer.",
+        "hi": "पाठ में कहा गया है कि CU (कंट्रोल यूनिट) को कंप्यूटर का दिल भी कहा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "While CPU is the brain, the Control Unit (CU) acts as the heart by controlling other units.",
+        "hi": "जबकि CPU दिमाग है, कंट्रोल यूनिट (CU) अन्य इकाइयों को नियंत्रित करके दिल की तरह काम करता है।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Which memory is directly connected to the CPU and is very fast compared to secondary memory?",
+        "hi": "कौन सी मेमोरी सीधे CPU से जुड़ी होती है और सेकेंडरी मेमोरी की तुलना में बहुत तेज़ होती है?"
+      },
+      "options": {
+        "a": {
+          "en": "Primary memory (Main Memory)",
+          "hi": "प्राइमरी मेमोरी (मेन मेमोरी)"
+        },
+        "b": {
+          "en": "Auxiliary memory",
+          "hi": "ऑक्जिलरी मेमोरी"
+        },
+        "c": {
+          "en": "Hard Disk Drive (HDD)",
+          "hi": "हार्ड डिस्क ड्राइव (HDD)"
+        },
+        "d": {
+          "en": "DVD",
+          "hi": "डीवीडी"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "This memory includes ROM and RAM.",
+        "hi": "इस मेमोरी में ROM और RAM शामिल हैं।"
+      },
+      "explanation": {
+        "en": "Primary memory (Main Memory) is directly connected with the CPU and is very fast compared to Secondary memory.",
+        "hi": "प्राइमरी मेमोरी (मेन मेमोरी) सीधे CPU से जुड़ी होती है और सेकेंडरी मेमोरी की तुलना में बहुत तेज़ होती है।"
+      },
+      "key_takeaway": {
+        "en": "Primary memory is essential for CPU operation due to its direct high-speed connection.",
+        "hi": "सीधे हाई-स्पीड कनेक्शन के कारण CPU संचालन के लिए प्राइमरी मेमोरी आवश्यक है।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "Which of the following memory is volatile and loses its stored data after a power reset?",
+        "hi": "निम्नलिखित में से कौन सी मेमोरी अस्थिर (volatile) है और पावर रीसेट होने के बाद अपना संग्रहीत डेटा खो देती है?"
+      },
+      "options": {
+        "a": {
+          "en": "ROM",
+          "hi": "रॉम (ROM)"
+        },
+        "b": {
+          "en": "RAM",
+          "hi": "रैम (RAM)"
+        },
+        "c": {
+          "en": "HDD",
+          "hi": "एचडीडी (HDD)"
+        },
+        "d": {
+          "en": "SSD",
+          "hi": "एसएसडी (SSD)"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is used to temporarily store data for currently running programs.",
+        "hi": "इसका उपयोग वर्तमान में चल रहे प्रोग्रामों के लिए डेटा को अस्थायी रूप से संग्रहीत करने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "RAM is used to temporarily store data and instructions for currently running programs. It is volatile and loses its stored data after a power reset.",
+        "hi": "RAM का उपयोग वर्तमान में चल रहे प्रोग्रामों के लिए डेटा और निर्देशों को अस्थायी रूप से संग्रहीत करने के लिए किया जाता है। यह अस्थिर होती है और पावर रीसेट के बाद डेटा खो देती है।"
+      },
+      "key_takeaway": {
+        "en": "RAM is a volatile, temporary memory, whereas ROM and secondary storage are non-volatile.",
+        "hi": "RAM एक अस्थिर, अस्थायी मेमोरी है, जबकि ROM और सेकेंडरी स्टोरेज गैर-अस्थिर (non-volatile) होते हैं।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "What is the information displayed on a monitor called?",
+        "hi": "मॉनिटर पर प्रदर्शित जानकारी को क्या कहा जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Hard-copy",
+          "hi": "हार्ड-कॉपी"
+        },
+        "b": {
+          "en": "Soft-copy",
+          "hi": "सॉफ्ट-कॉपी"
+        },
+        "c": {
+          "en": "Digital-copy",
+          "hi": "डिजिटल-कॉपी"
+        },
+        "d": {
+          "en": "Paper-copy",
+          "hi": "पेपर-कॉपी"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is temporary and displayed on screen, unlike printed paper.",
+        "hi": "यह अस्थायी होती है और स्क्रीन पर दिखाई देती है, न कि मुद्रित कागज पर।"
+      },
+      "explanation": {
+        "en": "Information displayed on the monitor is called 'soft-copy', while printed paper output is called 'hard-copy'.",
+        "hi": "मॉनिटर पर प्रदर्शित जानकारी को 'सॉफ्ट-कॉपी' कहा जाता है, जबकि कागज पर छपी जानकारी को 'हार्ड-कॉपी' कहा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Screen display outputs are soft copies, while printed physical outputs are hard copies.",
+        "hi": "स्क्रीन डिस्प्ले आउटपुट सॉफ्ट कॉपी होते हैं, जबकि प्रिंटेड भौतिक आउटपुट हार्ड कॉपी होते हैं।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "Which input device is specifically used to evaluate answer sheets in different examinations?",
+        "hi": "विभिन्न परीक्षाओं में उत्तर पुस्तिकाओं (शीट) का मूल्यांकन करने के लिए किस इनपुट डिवाइस का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "BCR",
+          "hi": "बीसीआर (BCR)"
+        },
+        "b": {
+          "en": "MICR",
+          "hi": "एमआईसीआर (MICR)"
+        },
+        "c": {
+          "en": "OMR",
+          "hi": "ओएमआर (OMR)"
+        },
+        "d": {
+          "en": "OCR",
+          "hi": "ओसीआर (OCR)"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Its full form is Optical Mark Reader.",
+        "hi": "इसका पूर्ण रूप ऑप्टिकल मार्क रीडर है।"
+      },
+      "explanation": {
+        "en": "OMR stands for Optical Mark Reader. OMR sheets are used to evaluate answers in different examinations.",
+        "hi": "OMR का पूर्ण रूप ऑप्टिकल मार्क रीडर है। OMR शीट का उपयोग विभिन्न परीक्षाओं में उत्तरों का मूल्यांकन करने के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "OMR technology is standard for grading multiple-choice sheets in examinations.",
+        "hi": "परीक्षाओं में बहुविकल्पीय शीट को ग्रेड करने के लिए OMR तकनीक मानक है।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "Which device acts as both an input device as well as an output device?",
+        "hi": "कौन सा उपकरण इनपुट डिवाइस के साथ-साथ आउटपुट डिवाइस के रूप में भी कार्य करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Scanner",
+          "hi": "स्कैनर"
+        },
+        "b": {
+          "en": "Touch-Screen",
+          "hi": "टच-स्क्रीन"
+        },
+        "c": {
+          "en": "Light pen",
+          "hi": "लाइट पेन"
+        },
+        "d": {
+          "en": "Plotter",
+          "hi": "प्लॉटर"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You can provide input by touching it and see information displayed on it at the same time.",
+        "hi": "आप इसे छूकर इनपुट दे सकते हैं और साथ ही इस पर प्रदर्शित जानकारी देख सकते हैं।"
+      },
+      "explanation": {
+        "en": "According to the document, a touch-screen is an input device as well as an output device.",
+        "hi": "दस्तावेज़ के अनुसार, टच-स्क्रीन एक इनपुट डिवाइस होने के साथ-साथ एक आउटपुट डिवाइस भी है।"
+      },
+      "key_takeaway": {
+        "en": "A touch-screen serves dual functionality for inputting commands and outputting visual display.",
+        "hi": "टच-स्क्रीन कमांड इनपुट करने और विजुअल डिस्प्ले आउटपुट करने के लिए दोहरी कार्यक्षमता प्रदान करती है।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "What is the full form of MICR, which is used in banks to read information printed with Magnetic Ink?",
+        "hi": "MICR का पूर्ण रूप क्या है, जिसका उपयोग बैंकों में मैग्नेटिक इंक से छपी जानकारी को पढ़ने के लिए किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Magnetic Ink Character Reader",
+          "hi": "मैग्नेटिक इंक कैरेक्टर रीडर"
+        },
+        "b": {
+          "en": "Modern Ink Character Recogniser",
+          "hi": "मॉडर्न इंक कैरेक्टर रिकॉग्नाइज़र"
+        },
+        "c": {
+          "en": "Machine Ink Character Reader",
+          "hi": "मशीन इंक कैरेक्टर रीडर"
+        },
+        "d": {
+          "en": "Mutual Ink Code Reader",
+          "hi": "म्यूचुअल इंक कोड रीडर"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It reads special characters printed with magnetic ink.",
+        "hi": "यह मैग्नेटिक इंक से छपे विशेष अक्षरों को पढ़ता है।"
+      },
+      "explanation": {
+        "en": "The full form of MICR is Magnetic Ink Character Reader. It is used in banks to read information printed with Magnetic Ink.",
+        "hi": "MICR का पूर्ण रूप मैग्नेटिक इंक कैरेक्टर रीडर है। इसका उपयोग बैंकों में मैग्नेटिक इंक से छपी जानकारी को पढ़ने के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "MICR is crucial for automated cheque processing in the banking sector.",
+        "hi": "बैंकिंग क्षेत्र में स्वचालित चेक प्रोसेसिंग के लिए MICR अत्यंत महत्वपूर्ण है।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "A collection of instructions that enables the computer to perform a particular task is called:",
+        "hi": "निर्देशों का एक संग्रह जो कंप्यूटर को एक विशेष कार्य करने में सक्षम बनाता है, कहलाता है:"
+      },
+      "options": {
+        "a": {
+          "en": "Computer Hardware",
+          "hi": "कंप्यूटर हार्डवेयर"
+        },
+        "b": {
+          "en": "Computer Program",
+          "hi": "कंप्यूटर प्रोग्राम"
+        },
+        "c": {
+          "en": "Input Device",
+          "hi": "इनपुट डिवाइस"
+        },
+        "d": {
+          "en": "Visual Display Unit",
+          "hi": "विजुअल डिस्प्ले यूनिट"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is also known as a procedure.",
+        "hi": "इसे प्रक्रिया (प्रोसीजर) के रूप में भी जाना जाता है।"
+      },
+      "explanation": {
+        "en": "The document defines a Computer Program (or procedure) as a collection of instructions that enables the computer to perform a particular task.",
+        "hi": "दस्तावेज़ कंप्यूटर प्रोग्राम (या प्रोसीजर) को निर्देशों के संग्रह के रूप में परिभाषित करता है जो कंप्यूटर को एक विशेष कार्य करने में सक्षम बनाता है।"
+      },
+      "key_takeaway": {
+        "en": "A program is a structured set of instructions designed for executing specific tasks.",
+        "hi": "एक प्रोग्राम विशिष्ट कार्यों को निष्पादित करने के लिए डिज़ाइन किया गया निर्देशों का एक संरचित सेट है।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Which language translator converts the source code written in high-level language into machine language one line at a time?",
+        "hi": "कौन सा लैंग्वेज ट्रांसलेटर उच्च स्तरीय भाषा में लिखे गए सोर्स कोड को एक बार में एक पंक्ति मशीन भाषा में परिवर्तित करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Compiler",
+          "hi": "कम्पाइलर"
+        },
+        "b": {
+          "en": "Assembler",
+          "hi": "असेम्बलर"
+        },
+        "c": {
+          "en": "Interpreter",
+          "hi": "इन्टरप्रेटर"
+        },
+        "d": {
+          "en": "Operating System",
+          "hi": "ऑपरेटिंग सिस्टम"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It does not translate the whole code at once.",
+        "hi": "यह पूरे कोड का एक साथ अनुवाद नहीं करता है।"
+      },
+      "explanation": {
+        "en": "An Interpreter converts the lines of the source code written in high level language into machine language one line at a time.",
+        "hi": "एक इन्टरप्रेटर उच्च स्तरीय भाषा में लिखे गए सोर्स कोड की पंक्तियों को एक बार में एक पंक्ति मशीन भाषा में परिवर्तित करता है।"
+      },
+      "key_takeaway": {
+        "en": "Interpreters translate code incrementally (line-by-line), whereas compilers translate all at once.",
+        "hi": "इन्टरप्रेटर कोड का अनुवाद धीरे-धीरे (लाइन-दर-लाइन) करते हैं, जबकि कम्पाइलर एक साथ पूरा अनुवाद करते हैं।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "How many digits are used in the Decimal Number System, and what are they?",
+        "hi": "दशमलव संख्या प्रणाली (Decimal Number System) में कितने अंकों का उपयोग किया जाता है, और वे क्या हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "2 digits: 0 and 1",
+          "hi": "2 अंक: 0 और 1"
+        },
+        "b": {
+          "en": "8 digits: 0 to 7",
+          "hi": "8 अंक: 0 से 7"
+        },
+        "c": {
+          "en": "10 digits: 0 to 9",
+          "hi": "10 अंक: 0 से 9"
+        },
+        "d": {
+          "en": "16 digits: 0 to 15",
+          "hi": "16 अंक: 0 से 15"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is also called the base-10 system.",
+        "hi": "इसे बेस-10 प्रणाली भी कहा जाता है।"
+      },
+      "explanation": {
+        "en": "Decimal numbers are based on the number 10 and use ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.",
+        "hi": "दशमलव संख्याएँ संख्या 10 पर आधारित होती हैं और दस अंकों का उपयोग करती हैं: 0, 1, 2, 3, 4, 5, 6, 7, 8, और 9।"
+      },
+      "key_takeaway": {
+        "en": "The decimal system has a base of 10 and represents numbers using digits 0-9.",
+        "hi": "दशमलव प्रणाली का आधार 10 होता है और यह 0-9 अंकों का उपयोग करके संख्याओं को दर्शाती है।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "Which output device is used to get sound output from the computer?",
+        "hi": "कंप्यूटर से ध्वनि आउटपुट प्राप्त करने के लिए किस आउटपुट डिवाइस का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Printer",
+          "hi": "प्रिंटर"
+        },
+        "b": {
+          "en": "Speaker",
+          "hi": "स्पीकर"
+        },
+        "c": {
+          "en": "Plotter",
+          "hi": "प्लॉटर"
+        },
+        "d": {
+          "en": "Projector",
+          "hi": "प्रोजेक्टर"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It allows you to listen to music and voices during online meetings.",
+        "hi": "यह आपको ऑनलाइन मीटिंग के दौरान संगीत और आवाज़ सुनने की अनुमति देता है।"
+      },
+      "explanation": {
+        "en": "According to the text, speakers are used to get sound output from the computer.",
+        "hi": "पाठ के अनुसार, कंप्यूटर से ध्वनि आउटपुट प्राप्त करने के लिए स्पीकर का उपयोग किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Speakers are the standard audio output devices for computers.",
+        "hi": "स्पीकर कंप्यूटर के लिए मानक ऑडियो आउटपुट डिवाइस हैं।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "Based on the text, which of the following is an example of an Impact Printer that prints one character at a time?",
+        "hi": "पाठ के आधार पर, निम्नलिखित में से कौन सा इम्पैक्ट प्रिंटर का उदाहरण है जो एक बार में एक कैरेक्टर प्रिंट करता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Dot-Matrix Printer",
+          "hi": "डॉट-मैट्रिक्स प्रिंटर"
+        },
+        "b": {
+          "en": "Chain Printer",
+          "hi": "चेन प्रिंटर"
+        },
+        "c": {
+          "en": "Drum Printer",
+          "hi": "ड्रम प्रिंटर"
+        },
+        "d": {
+          "en": "Laser Printer",
+          "hi": "लेजर प्रिंटर"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It is specified as a character printer under Impact Printers.",
+        "hi": "इसे इम्पैक्ट प्रिंटर के अंतर्गत कैरेक्टर प्रिंटर के रूप में निर्दिष्ट किया गया है।"
+      },
+      "explanation": {
+        "en": "The document lists Dot-Matrix Printer under Impact Printers and explicitly defines it as a 'character printer'. Chain Printer is a line-printer and Drum Printer is a page-printer.",
+        "hi": "दस्तावेज़ इम्पैक्ट प्रिंटर के तहत डॉट-मैट्रिक्स प्रिंटर को सूचीबद्ध करता है और इसे स्पष्ट रूप से 'कैरेक्टर प्रिंटर' के रूप में परिभाषित करता है। चेन प्रिंटर एक लाइन-प्रिंटर है और ड्रम प्रिंटर एक पेज-प्रिंटर है।"
+      },
+      "key_takeaway": {
+        "en": "Dot-Matrix is a character printer, whereas Chain and Drum are line and page printers respectively.",
+        "hi": "डॉट-मैट्रिक्स एक कैरेक्टर प्रिंटर है, जबकि चेन और ड्रम क्रमशः लाइन और पेज प्रिंटर हैं।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "In which type of plotter does the paper remain stationary while the printing mechanism moves in all directions?",
+        "hi": "किस प्रकार के प्लॉटर में कागज़ स्थिर रहता है जबकि प्रिंटिंग तंत्र सभी दिशाओं में घूमता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Drum Plotter",
+          "hi": "ड्रम प्लॉटर"
+        },
+        "b": {
+          "en": "Flat-bed plotter",
+          "hi": "फ्लैट-बेड प्लॉटर"
+        },
+        "c": {
+          "en": "Line Plotter",
+          "hi": "लाइन प्लॉटर"
+        },
+        "d": {
+          "en": "Inkjet Plotter",
+          "hi": "इंकजेट प्लॉटर"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The paper is placed on a flat, stationary bed.",
+        "hi": "कागज को एक सपाट, स्थिर सतह (बेड) पर रखा जाता है।"
+      },
+      "explanation": {
+        "en": "In a Flat-bed plotter, the paper remains stationary and the printing mechanism moves in all directions.",
+        "hi": "फ्लैट-बेड प्लॉटर में, कागज़ स्थिर रहता है और प्रिंटिंग तंत्र सभी दिशाओं में घूमता है।"
+      },
+      "key_takeaway": {
+        "en": "Flat-bed plotters keep paper fixed, whereas drum plotters move the paper vertically.",
+        "hi": "फ्लैट-बेड प्लॉटर कागज को स्थिर रखते हैं, जबकि ड्रम प्लॉटर कागज को लंबवत रूप से घुमाते हैं।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "Under which sub-category of System Software do \"Antivirus software, text editors, and system tools\" fall?",
+        "hi": "---सिस्टम सॉफ्टवेयर की किस उप-श्रेणी के अंतर्गत \"एंटीवायरस सॉफ्टवेयर, टेक्स्ट एडिटर और सिस्टम टूल्स\" आते हैं?"
+      },
+      "options": {
+        "a": {
+          "en": "Language translators",
+          "hi": "लैंग्वेज ट्रांसलेटर"
+        },
+        "b": {
+          "en": "Operating system",
+          "hi": "ऑपरेटिंग सिस्टम"
+        },
+        "c": {
+          "en": "Utilities",
+          "hi": "यूटिलिटीज"
+        },
+        "d": {
+          "en": "Application software",
+          "hi": "एप्लीकेशन सॉफ्टवेयर"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "These are additional software used to enhance the features of the Operating System.",
+        "hi": "ये ऑपरेटिंग सिस्टम की विशेषताओं को बढ़ाने के लिए उपयोग किए जाने वाले अतिरिक्त सॉफ्टवेयर हैं।"
+      },
+      "explanation": {
+        "en": "The text states that utilities are system software used to enhance the features of Operating System, such as antivirus software, text editors, and system tools.",
+        "hi": "पाठ में कहा गया है कि यूटिलिटीज सिस्टम सॉफ्टवेयर हैं जिनका उपयोग ऑपरेटिंग सिस्टम की विशेषताओं को बढ़ाने के लिए किया जाता है, जैसे कि एंटीवायरस सॉफ्टवेयर, टेक्स्ट एडिटर और सिस्टम टूल्स।"
+      },
+      "key_takeaway": {
+        "en": "Utility software serves to analyze, configure, optimize or maintain a computer.",
+        "hi": "यूटिलिटी सॉफ्टवेयर कंप्यूटर का विश्लेषण, कॉन्फ़िगर, अनुकूलन या रखरखाव करने का कार्य करता है।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "According to the text, what is the key difference in application between a light-pen and a stylus?",
+        "hi": "पाठ के अनुसार, लाइट-पेन और स्टाइलस के उपयोग में मुख्य अंतर क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "Light-pen is used on CRT Monitors, while Stylus is used on LCD Monitors",
+          "hi": "लाइट-पेन का उपयोग CRT मॉनिटर पर किया जाता है, जबकि स्टाइलस का उपयोग LCD मॉनिटर पर किया जाता है"
+        },
+        "b": {
+          "en": "Stylus is used on CRT Monitors, while Light-pen is used on LCD Monitors",
+          "hi": "स्टाइलस का उपयोग CRT मॉनिटर पर किया जाता है, जबकि लाइट-पेन का उपयोग LCD मॉनिटर पर किया जाता है"
+        },
+        "c": {
+          "en": "Light-pen is an output device, while Stylus is an input device",
+          "hi": "लाइट-पेन एक आउटपुट डिवाइस है, जबकि स्टाइलस एक इनपुट डिवाइस है"
+        },
+        "d": {
+          "en": "Stylus is used for drawing, while Light-pen is used only for scanning barcodes",
+          "hi": "स्टाइलस का उपयोग ड्राइंग के लिए किया जाता है, जबकि लाइट-पेन का उपयोग केवल बारकोड स्कैन करने के लिए किया जाता है"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "They are designed for different types of monitor technologies (CRT vs LCD).",
+        "hi": "इन्हें विभिन्न प्रकार की मॉनिटर तकनीकों (CRT बनाम LCD) के लिए डिज़ाइन किया गया है।"
+      },
+      "explanation": {
+        "en": "As per the document: 'Light-pen is used on CRT Monitors. Stylus is used on LCD Monitors.' Both are pen-shaped input devices.",
+        "hi": "दस्तावेज़ के अनुसार: 'लाइट-पेन का उपयोग CRT मॉनिटर पर किया जाता है। स्टाइलस का उपयोग LCD मॉनिटर पर किया जाता है।' दोनों पेन के आकार के इनपुट डिवाइस हैं।"
+      },
+      "key_takeaway": {
+        "en": "Light-pens and styluses target different screen display technologies (CRT and LCD respectively).",
+        "hi": "लाइट-पेन और स्टाइलस अलग-अलग स्क्रीन डिस्प्ले तकनीकों (क्रमशः CRT और LCD) को लक्षित करते हैं।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "What is the correct binary representation of the decimal number 19, following the conversion process shown in the document?",
+        "hi": "दस्तावेज़ में दिखाए गए रूपांतरण प्रक्रिया के अनुसार, दशमलव संख्या 19 का सही बाइनरी निरूपण क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "(10011)₂",
+          "hi": "(10011)₂"
+        },
+        "b": {
+          "en": "(11001)₂",
+          "hi": "(11001)₂"
+        },
+        "c": {
+          "en": "(10101)₂",
+          "hi": "(10101)₂"
+        },
+        "d": {
+          "en": "(10111)₂",
+          "hi": "(10111)₂"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Divide 19 by 2 repeatedly and read the remainders from bottom to top.",
+        "hi": "19 को बार-बार 2 से विभाजित करें और शेषफल को नीचे से ऊपर तक पढ़ें।"
+      },
+      "explanation": {
+        "en": "The step-by-step division of 19 by 2 gives remainders: 1, 1, 0, 0, 1 from top to bottom. Reading from bottom to top, we get 10011.",
+        "hi": "19 को 2 से विभाजित करने पर शेषफल प्राप्त होता है: ऊपर से नीचे तक 1, 1, 0, 0, 1। नीचे से ऊपर की ओर पढ़ने पर, हमें 10011 प्राप्त होता है।"
+      },
+      "key_takeaway": {
+        "en": "To convert decimal to binary, read the remainders of successive divisions by 2 from bottom to top.",
+        "hi": "दशमलव से बाइनरी में बदलने के लिए, 2 से क्रमिक विभाजनों के शेषफल को नीचे से ऊपर की ओर पढ़ें।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "Convert the binary number (10011)₂ back to a decimal number. What is the sum of the products of each binary digit multiplied by its corresponding power of 2?",
+        "hi": "बाइनरी संख्या (10011)₂ को वापस दशमलव संख्या में बदलें। प्रत्येक बाइनरी अंक को उसके संगत 2 की घात से गुणा करने पर प्राप्त गुणनफलों का योग क्या है?"
+      },
+      "options": {
+        "a": {
+          "en": "16 + 0 + 0 + 2 + 1 = 19",
+          "hi": "16 + 0 + 0 + 2 + 1 = 19"
+        },
+        "b": {
+          "en": "16 + 8 + 0 + 2 + 1 = 27",
+          "hi": "16 + 8 + 0 + 2 + 1 = 27"
+        },
+        "c": {
+          "en": "8 + 4 + 0 + 2 + 1 = 15",
+          "hi": "8 + 4 + 0 + 2 + 1 = 15"
+        },
+        "d": {
+          "en": "16 + 0 + 4 + 2 + 0 = 22",
+          "hi": "16 + 0 + 4 + 2 + 0 = 22"
+        }
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Multiply digits from right to left with powers of 2 starting from 2⁰, 2¹, 2², 2³, 2⁴.",
+        "hi": "अंकों को दाएं से बाएं 2 की घातों से गुणा करें, जो 2⁰, 2¹, 2², 2³, 2⁴ से शुरू होती हैं।"
+      },
+      "explanation": {
+        "en": "According to the example: 1×16 + 0×8 + 0×4 + 1×2 + 1×1 = 16 + 0 + 0 + 2 + 1 = 19.",
+        "hi": "उदाहरण के अनुसार: 1×16 + 0×8 + 0×4 + 1×2 + 1×1 = 16 + 0 + 0 + 2 + 1 = 19."
+      },
+      "key_takeaway": {
+        "en": "Binary to decimal conversion involves summing the weighted positions of each binary bit.",
+        "hi": "बाइनरी से दशमलव रूपांतरण में प्रत्येक बाइनरी बिट के भारित स्थानों का योग शामिल होता है।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "Why is the Binary System used internally by almost all modern computers and computer-based devices?",
+        "hi": "लगभग सभी आधुनिक कंप्यूटरों और कंप्यूटर-आधारित उपकरणों द्वारा आंतरिक रूप से बाइनरी सिस्टम का उपयोग क्यों किया जाता है?"
+      },
+      "options": {
+        "a": {
+          "en": "Because it is based on human language and is easy for users to type",
+          "hi": "क्योंकि यह मानव भाषा पर आधारित है और उपयोगकर्ताओं के लिए टाइप करना आसान है"
+        },
+        "b": {
+          "en": "Because it is straightforward to implement with digital electronic circuitry",
+          "hi": "क्योंकि इसे डिजिटल इलेक्ट्रॉनिक सर्किटरी के साथ लागू करना सरल है"
+        },
+        "c": {
+          "en": "Because 10 digits are too slow to process compared to letters",
+          "hi": "क्योंकि अक्षरों की तुलना में 10 अंकों को प्रोसेस करना बहुत धीमा होता है"
+        },
+        "d": {
+          "en": "Because it prevents any external data storage from being used",
+          "hi": "क्योंकि यह किसी भी बाहरी डेटा स्टोरेज के उपयोग को रोकता है"
+        }
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Look under the 'Key Points' section on Binary System.",
+        "hi": "बाइनरी सिस्टम पर 'मुख्य बिंदु (Key Points)' अनुभाग के अंतर्गत देखें।"
+      },
+      "explanation": {
+        "en": "The text states that the binary system is used internally by almost all modern computers because it is straightforward to implement with digital electronic circuitry.",
+        "hi": "पाठ में कहा गया है कि बाइनरी सिस्टम का उपयोग आंतरिक रूप से लगभग सभी आधुनिक कंप्यूटरों द्वारा किया जाता है क्योंकि इसे डिजिटल इलेक्ट्रॉनिक सर्किटरी के साथ लागू करना सरल है।"
+      },
+      "key_takeaway": {
+        "en": "Computers use binary states (0 and 1) because electronic circuits can easily represent these using on/off signals.",
+        "hi": "कंप्यूटर बाइनरी अवस्थाओं (0 और 1) का उपयोग करते हैं क्योंकि इलेक्ट्रॉनिक सर्किट ऑन/ऑफ संकेतों का उपयोग करके इन्हें आसानी से दर्शा सकते हैं।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "Which of the following statements is FALSE regarding RAM and ROM as described in the document?",
+        "hi": "दस्तावेज़ में वर्णित रैम (RAM) और रॉम (ROM) के संबंध में निम्नलिखित में से कौन सा कथन गलत है?"
+      },
+      "options": {
+        "a": {
+          "en": "ROM is used to store some special instructions that help the computer start.",
+          "hi": "ROM का उपयोग कुछ विशेष निर्देशों को संग्रहीत करने के लिए किया जाता है जो कंप्यूटर को शुरू करने में मदद करते हैं।"
+        },
+        "b": {
+          "en": "RAM is a volatile memory and loses its stored data after a power reset.",
+          "hi": "RAM एक अस्थिर (volatile) मेमोरी है और पावर रीसेट होने के बाद अपना संग्रहीत डेटा खो देती है।"
+        },
+        "c": {
+          "en": "ROM is a temporary memory and loses its stored data when the computer is turned off.",
+          "hi": "ROM एक अस्थायी मेमोरी है और कंप्यूटर बंद होने पर अपना संग्रहीत डेटा खो देती है।"
+        },
+        "d": {
+          "en": "Both RAM and ROM are parts of Primary Memory / Main Memory.",
+          "hi": "RAM और ROM दोनों प्राइमरी मेमोरी / मेन मेमोरी के भाग हैं।"
+        }
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Check which memory is permanent and which is temporary/volatile.",
+        "hi": "जांचें कि कौन सी मेमोरी स्थायी है और कौन सी अस्थायी/अस्थिर है।"
+      },
+      "explanation": {
+        "en": "The document specifies that 'ROM is a permanent memory and never loses its stored data.' Therefore, the statement saying ROM is temporary and loses data is false.",
+        "hi": "दस्तावेज़ में निर्दिष्ट किया गया है कि 'ROM एक स्थायी मेमोरी है और इसका संग्रहीत डेटा कभी नहीं खोता है।' इसलिए, यह कथन गलत है कि ROM अस्थायी है और डेटा खो देता है।"
+      },
+      "key_takeaway": {
+        "en": "ROM is permanent (non-volatile) and holds boot instructions, whereas RAM is temporary (volatile) and holds current runtime data.",
+        "hi": "ROM स्थायी (non-volatile) है और बूट निर्देश रखता है, जबकि RAM अस्थायी (volatile) है और वर्तमान रनटाइम डेटा रखता है।"
+      }
+    }
+  ]
+}
