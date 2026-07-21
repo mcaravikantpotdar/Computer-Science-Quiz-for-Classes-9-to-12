@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Generator Portal</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f1f5f9; color: #1e293b; min-height: 100vh; padding: 40px 20px; }
+        .container { max-width: 520px; margin: 0 auto; background: #ffffff; padding: 32px; border-radius: 16px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05); }
+        .header { text-align: center; margin-bottom: 24px; }
+        .header h1 { font-size: 22px; color: #0f172a; margin-bottom: 6px; }
+        .header p { font-size: 13px; color: #64748b; }
+        .form-group { margin-bottom: 18px; }
+        label { display: block; font-size: 11px; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+        select, input[type="text"], input[type="number"], input[type="file"] { width: 100%; padding: 11px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 14px; color: #334155; background: #f8fafc; transition: all 0.2s; outline: none; }
+        select:focus, input:focus { border-color: #2563eb; background: #ffffff; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
+        .divider { display: flex; align-items: center; text-align: center; margin: 8px 0; color: #94a3b8; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+        .divider::before, .divider::after { content: ''; flex: 1; border-bottom: 1px dashed #cbd5e1; }
+        .divider span { padding: 0 8px; }
+        .btn-submit { width: 100%; background: #2563eb; color: #ffffff; border: none; padding: 14px; border-radius: 8px; font-size: 15px; font-weight: 700; cursor: pointer; transition: all 0.2s; margin-top: 10px; }
+        .btn-submit:hover { background: #1d4ed8; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25); }
+        .btn-submit:disabled { background: #94a3b8; cursor: not-allowed; transform: none; box-shadow: none; }
+        .status-msg { margin-top: 16px; padding: 12px; border-radius: 8px; font-size: 13px; text-align: center; display: none; }
+        .status-msg.info { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+        .status-msg.error { background: #fef2f2; color: #b91c1c; border: 1px solid #fca5a5; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>🎓 Quiz Generator Portal</h1>
+        <p>Extract MCQs from chapter PDFs and publish to GitHub.</p>
+    </div>
+
+    <form id="quizForm" action="https://verygood123.app.n8n.cloud/webhook-test/generate-quiz" method="POST" enctype="multipart/form-data">
+        
+        <div class="form-group">
+            <label>1. Target Class</label>
+            <select id="classSelect" name="existingClass">
+                <option value="">-- Scanning GitHub Folders... --</option>
+            </select>
+            <div class="divider"><span>OR CREATE NEW</span></div>
+            <input type="text" name="newClass" placeholder="e.g. Class 11" autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <label>2. Target Subject</label>
+            <select id="subjectSelect" name="existingSubject">
+                <option value="">-- Scanning GitHub Folders... --</option>
+            </select>
+            <div class="divider"><span>OR CREATE NEW</span></div>
+            <input type="text" name="newSubject" placeholder="e.g. Information Technology" autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <label>3. Lesson / Chapter Title</label>
+            <input type="text" name="lessonName" placeholder="e.g. HTML Basics" required autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <label>4. Number of Questions (10 - 40)</label>
+            <input type="number" name="qCount" value="20" min="10" max="40" required>
+        </div>
+
+        <div class="form-group">
+            <label>5. Upload Chapter PDF</label>
+            <input type="file" name="pdfFile" accept=".pdf" required>
+        </div>
+
+        <button type="submit" id="submitBtn" class="btn-submit">🚀 Generate & Publish Quiz</button>
+        <div id="status" class="status-msg"></div>
+    </form>
+</div>
+
+<script>
+    const REPO_OWNER = 'mcaravikantpotdar';
+    const REPO_NAME = 'Computer-Science-Quiz-for-Classes-9-to-12';
+    const API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/main?recursive=1`;
+
+    fetch(API_URL)
+        .then(res => {
+            if (!res.ok) throw new Error(`GitHub API Error: ${res.status}`);
+            return res.json();
+        })
+        .then(data => {
+            const classes = new Set();
+            const subjects = new Set();
+
+            if (data.tree && Array.isArray(data.tree)) {
+                data.tree.forEach(item => {
+                    if (item.path.startsWith('jsons/')) {
+                        const parts = item.path.split('/');
+                        if (parts[1]) classes.add(parts[1].replace(/_/g, ' '));
+                        if (parts[2]) subjects.add(parts[2].replace(/_/g, ' '));
+                    }
+                });
+            }
+
+            const classSelect = document.getElementById('classSelect');
+            const subjectSelect = document.getElementById('subjectSelect');
+
+            classSelect.innerHTML = '<option value="">-- Select Existing Class --</option>' +
+                Array.from(classes).sort().map(c => `<option value="${c}">${c}</option>`).join('');
+
+            subjectSelect.innerHTML = '<option value="">-- Select Existing Subject --</option>' +
+                Array.from(subjects).sort().map(s => `<option value="${s}">${s}</option>`).join('');
+        })
+        .catch(err => {
+            console.warn('Could not auto-load GitHub folders:', err);
+            document.getElementById('classSelect').innerHTML = '<option value="">-- Type Class Manually Below --</option>';
+            document.getElementById('subjectSelect').innerHTML = '<option value="">-- Type Subject Manually Below --</option>';
+        });
+
+    document.getElementById('quizForm').addEventListener('submit', function() {
+        const btn = document.getElementById('submitBtn');
+        const status = document.getElementById('status');
+        btn.disabled = true;
+        btn.innerText = '⏳ Processing PDF & Publishing...';
+        status.className = 'status-msg info';
+        status.style.display = 'block';
+        status.innerText = 'Extracting content and generating bilingual JSON via Gemini. This takes 20-30 seconds...';
+    });
+</script>
+
+</body>
+</html>
